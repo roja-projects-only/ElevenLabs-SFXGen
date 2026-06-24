@@ -47,11 +47,36 @@ When the user runs `/sfx-generate [category] [quantity]` (or `/sfx-batch`):
 
 5. **Resolve verdicts.** Apply **Council Rules**. Revise where required, up to the hard cap. You make the final call.
 
-6. **Generate.** Once a prompt is approved, call `scripts/generate.py` to hit the ElevenLabs API and download the audio, passing the prompt text, category, `prompt_influence`, and `duration_seconds`/`loop`/`output_format` for that slot. Throttle batches to the account concurrency limit (see **Concurrency**).
+6. **Generate.** Once a prompt is approved, call `scripts/generate.py` to hit the ElevenLabs API and download the audio. Pass the slot's params via the CLI flags (see **Script Interfaces**). Throttle batches to the account concurrency limit (see **Concurrency**) — the CLI's `--tier` flag sets the in-process semaphore; do not fire multiple CLI processes in parallel for one batch.
 
-7. **Organize and log.** Call `scripts/organizer.py` to name and route the file per the **Naming Convention**, then append one **complete** entry to `logs/generation_log.json` using the exact **Log Entry Schema** below.
+7. **Organize and log.** Call `scripts/organizer.py` to name and route the file per the **Naming Convention** (it prints a JSON object with `filename`, `id`, `output_path`). Then append one **complete** entry to `logs/generation_log.json` using the exact **Log Entry Schema** below. The modular package `scripts/sfx_studio/` exposes `log.append_entry()` / `log.build_entry()` if you prefer to write the entry from a single Python invocation instead of hand-editing the JSON.
 
-If `scripts/generate.py` or `scripts/organizer.py` does not exist yet, do not silently fail: write the approved prompts, params, and intended log entries to the TUI and tell the user the scripts are not yet authored, so nothing is lost.
+## Script Interfaces
+
+The scripts are authored and live under `scripts/`. They are thin CLIs over the `scripts/sfx_studio/` package. Run them with `python scripts/<name>.py ...` from the repo root.
+
+**`scripts/generate.py`** — generate one sound effect and write it to `--out`.
+```
+--text TEXT              (required) prompt, ≤1,000 chars
+--category CATEGORY       (required) one of the 8 categories
+--prompt-influence FLOAT  optional, omit for SDK default (0.3)
+--duration FLOAT          optional, omit for auto-duration (cheaper)
+--loop                    flag, set for beds/ambience (MP3 only)
+--output-format STR       default mp3_44100_128
+--model-id STR            optional, omit for SDK default
+--tier STR                default free (free=2, starter=3, creator=5, pro=10)
+--out PATH                (required) where to write the audio file
+```
+On success prints the resolved output path and exits 0; on failure prints a clean error to stderr and exits 1 (invalid args exit 2). A 401 means the API key is missing/invalid — invoke the `setup-api-key` skill, then resume.
+
+**`scripts/organizer.py`** — name and move a generated file into `sfx_library/<category>/`.
+```
+--src PATH                (required) path to the generated audio file
+--category CATEGORY       (required) one of the 8 categories
+--descriptor STR          (required) sonic descriptor (e.g. brass, rain)
+--mood STR                (required) mood (e.g. punchy, interior)
+```
+Prints JSON `{filename, id, output_path}` and exits 0; the `id` is the filename without extension — use it as the log entry `id`.
 
 ## Your Subagents
 
