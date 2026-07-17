@@ -126,6 +126,8 @@ Files are auto-named by `organizer.py` using the format:
 
 `ELEVENLABS_API_KEY` goes in `.env` at repo root. Never commit to Git. Use the `setup-api-key` skill to configure safely — never paste keys into chat.
 
+**Default ElevenLabs tier: Creator (5 concurrent requests).** If a command's `--tier` flag is omitted, `sfx-writer` assumes Creator unless told otherwise. Other tiers: Free (2), Starter (3), Pro (10).
+
 ## Pointers
 
 - **Full spec:** `docs/product-foundation.md`
