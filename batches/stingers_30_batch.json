@@ -1,0 +1,305 @@
+{
+  "tier": "free",
+  "items": [
+    {
+      "text": "Thumping acoustic kick drum hit with deep low-end body and short punchy attack, tight dry room with immediate cutoff, one-shot, 90 BPM, used as a heavy radio stinger for sports or music segments, under 1 second.",
+      "category": "stinger",
+      "descriptor": "kick_drum",
+      "mood": "thumping",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Sharp snare drum rimshot crack with bright brittle impact, live room ambience with quick natural decay, mid-high metallic slap, one-shot, 110 BPM, used as a percussive radio stinger for comedy beats or punchline accents.",
+      "category": "stinger",
+      "descriptor": "rimshot",
+      "mood": "sharp",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Tight cymbal stack crash hit with sizzling high-frequency spread, immediate attack with choked dampened decay, under 1 second, no reverb tail, one-shot, used as a dramatic radio stinger for major reveals or segment breaks.",
+      "category": "stinger",
+      "descriptor": "cymbal_stack",
+      "mood": "choked",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Single hard timpani mallet strike with deep percussive boom, immediate attack with tight studio damping, dry close microphone, low-mid drumhead resonance with fast cutoff, one-shot, under 1 second, used as a sudden dramatic radio stinger for announcements.",
+      "category": "stinger",
+      "descriptor": "timpani",
+      "mood": "percussive",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Choked deep gong impact with mallet attack, immediate metallic bloom instantly dampened, tight close studio perspective with fast cutoff, mid-low body with no tail, one-shot, used as a short ceremonial radio stinger for special event accents.",
+      "category": "stinger",
+      "descriptor": "gong",
+      "mood": "dampened",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Quick struck bell tap with percussive metallic click, immediate dampened decay, tight dry mono close-mic, no reverb, mid-high register, one-shot, single strike under 0.5 seconds, used as a clean precision radio imaging stinger for news alerts.",
+      "category": "stinger",
+      "descriptor": "bell_tap",
+      "mood": "precise",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Dampened piano chord stab with felt-damped strings stopping resonance immediately, percussive hammer attack with deadened cutoff, dry studio close mic, tight under 1 second, one-shot, 100 BPM in A minor, used as a short dramatic radio stinger for emotional narrative moments.",
+      "category": "stinger",
+      "descriptor": "piano_stab",
+      "mood": "dampened",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Sharp dampened acoustic guitar strummed chord with bright steel-string attack, immediate palm mute cutoff, dry close studio perspective with no ring-out, one-shot, 95 BPM in G major, used as a percussive organic radio stinger for lifestyle segments.",
+      "category": "stinger",
+      "descriptor": "guitar_strum",
+      "mood": "palmmuted",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Plucked violin pizzicato note with crisp biting attack, bright high-register tone, dry studio acoustic with fast decay, single plucked string, one-shot, used as a precise classical radio stinger for arts segments.",
+      "category": "stinger",
+      "descriptor": "violin_pizzicato",
+      "mood": "crisp",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Snapped double bass string pizzicato with tight dampened attack, immediate left-hand mute cutoff, close dry perspective, low-mid thump with no sustaining resonance, one-shot, staccato under 0.5 seconds, used as a percussive low-end radio stinger for jazz segments.",
+      "category": "stinger",
+      "descriptor": "double_bass",
+      "mood": "snapped",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Descending pure sub-bass tone stinger sweeping from 80Hz to 40Hz, clean sine oscillation with no harmonics, centered tight mono with immediate cut at sweep end, under 1 second, one-shot, used as a deep radio stinger for club segments.",
+      "category": "stinger",
+      "descriptor": "sub_bass",
+      "mood": "descending",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Modulated synth burst with clean high-mid tone, centered mono with tight envelope, fast LFO sweep with bright filter accent and instant cutoff, one-shot, 140 BPM, used as a modern electronic radio stinger for youth segments.",
+      "category": "stinger",
+      "descriptor": "synth_burst",
+      "mood": "modulated",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Fast analog synth arpeggio sequence with warm mid-range tone burst, bright filter sweep accent, tight dry delivery with no reverb, immediate cutoff at end, one-shot, 130 BPM in C major, used as a melodic tech radio stinger.",
+      "category": "stinger",
+      "descriptor": "synth_arpeggio",
+      "mood": "melodic",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Glassy FM synth hit with warm metallic body, clean close production, bright mid-high frequency with glassy attack and tight dampened decay under 1 second, no reverb, one-shot, used as a futuristic radio imaging stinger for technology segments.",
+      "category": "stinger",
+      "descriptor": "fm_synth",
+      "mood": "glassy",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Descending filter noise sweep stinger from high to low frequency, grainy textured noise, centered narrow mono field with high-pass above 200Hz for voice clearance, tight cutoff at sweep end, one-shot, under 2 seconds, used as a cinematic radio transition stinger.",
+      "category": "stinger",
+      "descriptor": "noise_sweep",
+      "mood": "descending",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Low-fidelity bitcrushed synth stab with aliased glitch crunch, wide stereo distorted spread, gritty bright high-mid grain texture, aggressive attack with instant digital cutoff, one-shot, used as a lo-fi retro radio stinger for gaming segments.",
+      "category": "stinger",
+      "descriptor": "bitcrush",
+      "mood": "gritty",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Aggressive saw wave synth chord with thick rasping buzz, centered tight mono delivery with controlled mid-range, quick attack and abrupt release with no tail, one-shot, 120 BPM in E minor, used as an edgy radio stinger for rock segments.",
+      "category": "stinger",
+      "descriptor": "saw_wave",
+      "mood": "aggressive",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Low-frequency dual-tone synth throb with two sub intervals beating together, centered mono with slight saturation warmth, percussive attack with immediate decay under 0.8 seconds, one-shot, used as a minimal low-end radio stinger for podcast bumpers.",
+      "category": "stinger",
+      "descriptor": "dual_tone",
+      "mood": "throbbing",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Fast phaser laser sweep with metallic comb-filtered texture, centered mono with slight stereo widening, bright mid-high pitch bend descending, tight cutoff with no tail, one-shot, used as a sci-fi radio stinger for futuristic segments.",
+      "category": "stinger",
+      "descriptor": "laser_sweep",
+      "mood": "metallic",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Fragmented granular glitch burst with deep low-end sub rumble beneath micro-chopped glitch hits, centered placement with tight delivery, layered high and low frequencies, tight dry finish, one-shot, used as an experimental radio stinger for avant-garde segments.",
+      "category": "stinger",
+      "descriptor": "granular_glitch",
+      "mood": "fragmented",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Shattering glass crash stinger with splintering shard fragments, close room perspective, bright high-frequency break with metallic ring, chaotic multi-hit attack with fast decay under 1 second, one-shot, used as a dramatic radio stinger for tension or accident moments.",
+      "category": "stinger",
+      "descriptor": "glass_shatter",
+      "mood": "explosive",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Hard wood block strike with sharp mid-frequency knock, dry close microphone, percussive accent hit with fast resonant snap and immediate dampened cutoff, one-shot, used as a rhythmic impact radio stinger for comedy timing.",
+      "category": "stinger",
+      "descriptor": "wood_block",
+      "mood": "percussive",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Struck metal pipe with ringing sustained echo decay, distant alley spatial with mid-low metallic resonance, ringing tail dampened under 1.5 seconds, one-shot, used as an industrial radio stinger for urban or gritty programming segments.",
+      "category": "stinger",
+      "descriptor": "metal_pipe",
+      "mood": "ringing",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Sharp water droplet plink with percussive liquid snap, dampened close-mic perspective with no room echo, mid-high frequency transient hit with fast cutoff under 0.5 seconds, one-shot, used as a bright radio stinger for reflective segments.",
+      "category": "stinger",
+      "descriptor": "water_drop",
+      "mood": "percussive",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Heavy stomp footstep with floor thud impact, indoor room acoustic, low-frequency body with solid weight and tight close perspective, immediate cutoff, one-shot, used as a grounding radio stinger for dramatic reveals or suspense moments.",
+      "category": "stinger",
+      "descriptor": "stomp",
+      "mood": "heavy",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Ripping paper tear burst with fibrous crackle texture, wide stereo room perspective, bright high-frequency rip with fast transient, tight cutoff, one-shot, used as a textured radio stinger for storytelling segments.",
+      "category": "stinger",
+      "descriptor": "paper_tear",
+      "mood": "ripping",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Cracking leather whip snap with sharp splitting sound, open air spatial with no reverb, bright mid-high crack with immediate attack and fast decay, one-shot, used as an aggressive radio stinger for western or action segments.",
+      "category": "stinger",
+      "descriptor": "whip_crack",
+      "mood": "sharp",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Sharp thunder crack stinger with explosive attack, no rolling decay tail, tight controlled cutoff under 1 second, dry close outdoor-mic perspective, mid-low frequency body with instant cutoff, one-shot, used as a powerful radio stinger for dramatic announcements.",
+      "category": "stinger",
+      "descriptor": "thunder_crack",
+      "mood": "sharp",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Short fire burst stinger with sudden whooshing attack, fast crackling blaze texture, centered mono with immediate cutoff, no tail, one-shot, under 1 second, used as a primal radio stinger for survival segments.",
+      "category": "stinger",
+      "descriptor": "fire_burst",
+      "mood": "sudden",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Abrupt vocal shout stinger with guttural bark, tight room acoustic, mid-frequency raw yelled syllable, single percussive exclamation with immediate cutoff, one-shot, 120 BPM, used as an intense radio stinger for sports or contest segments.",
+      "category": "stinger",
+      "descriptor": "vocal_shout",
+      "mood": "guttural",
+      "prompt_influence": 0.8,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    }
+  ]
+}

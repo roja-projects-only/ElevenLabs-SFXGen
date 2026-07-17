@@ -4183,5 +4183,1865 @@
     "model_id": "eleven_text_to_sound_v2",
     "output_format": "mp3_44100_128",
     "character_cost": 750
+  },
+  {
+    "id": "stinger_kick_drum_thumping_001",
+    "prompt": "Thumping acoustic kick drum hit with deep low-end body and short punchy attack, tight dry room with immediate cutoff, one-shot, 90 BPM, used as a heavy radio stinger for sports or music segments, under 1 second.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "kick_drum",
+      "attack": "thumping",
+      "texture": "deep",
+      "spatial": "tight_dry",
+      "frequency": "sub_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_kick_drum_thumping_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_kick_drum_thumping_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent acoustic specificity with clear source, texture, attack, and spatial constraints",
+      "sfx-director": "Tight punchy kick with immediate cutoff under 1s — textbook stinger execution",
+      "sfx-librarian": "Acoustic kick drum wholly new source in pool; tight dry spatial and low-end diverge from existing entries"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_rimshot_sharp_001",
+    "prompt": "Sharp snare drum rimshot crack with bright brittle impact, live room ambience with quick natural decay, mid-high metallic slap, one-shot, 110 BPM, used as a percussive radio stinger for comedy beats or punchline accents.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "rimshot",
+      "attack": "sharp_crack",
+      "texture": "brittle",
+      "spatial": "live_room",
+      "frequency": "high_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_rimshot_sharp_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_rimshot_sharp_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Highly specific with clear source and tonal descriptors",
+      "sfx-director": "Bright snare rimshot with quick natural decay — percussive punch lands well for comedy/punchline",
+      "sfx-librarian": "Snare rimshot shares sharp attack and mid_high with brass #2, but acoustic percussion source and live room character set it apart"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_cymbal_stack_choked_001",
+    "prompt": "Tight cymbal stack crash hit with sizzling high-frequency spread, immediate attack with choked dampened decay, under 1 second, no reverb tail, one-shot, used as a dramatic radio stinger for major reveals or segment breaks.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "cymbal_stack",
+      "attack": "choked",
+      "texture": "sizzling",
+      "spatial": "tight_dry",
+      "frequency": "high_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_cymbal_stack_choked_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_cymbal_stack_choked_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Precise acoustic description with clear source, frequency emphasis, and explicit decay control",
+      "sfx-director": "Cymbal crash with choked dampened decay and no reverb tail — this cuts clean",
+      "sfx-librarian": "Cymbal stack is entirely new source with unique choked dampened decay behavior not in pool"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_timpani_percussive_001",
+    "prompt": "Single hard timpani mallet strike with deep percussive boom, immediate attack with tight studio damping, dry close microphone, low-mid drumhead resonance with fast cutoff, one-shot, under 1 second, used as a sudden dramatic radio stinger for announcements.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "timpani",
+      "attack": "percussive_strike",
+      "texture": "resonant_boom",
+      "spatial": "dry_close",
+      "frequency": "low_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_timpani_percussive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_timpani_percussive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 10,
+      "sfx-director": 8,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Perfectly balanced with clear source, tonal body, and explicit recording perspective",
+      "sfx-director": "Timpani strike with studio damping and fast cutoff is solid — deep low-mid body works for announcement weight",
+      "sfx-librarian": "Timpani already appears in pool entry #3, but single hit dry close diverges from orchestral rolling wide tail"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_gong_dampened_001",
+    "prompt": "Choked deep gong impact with mallet attack, immediate metallic bloom instantly dampened, tight close studio perspective with fast cutoff, mid-low body with no tail, one-shot, used as a short ceremonial radio stinger for special event accents.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "gong",
+      "attack": "dampened_strike",
+      "texture": "metallic_bloom",
+      "spatial": "close_studio",
+      "frequency": "mid_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_gong_dampened_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_gong_dampened_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent coherence with clear source, attack/decay envelope, and spatial constraints",
+      "sfx-director": "Gong with instant dampen and no tail fits the ceremonial brief — under 1 second correct",
+      "sfx-librarian": "Gong is novel source with unique dampened metallic bloom behavior; close studio spatial diverges from cathedral entries"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_bell_tap_precise_001",
+    "prompt": "Quick struck bell tap with percussive metallic click, immediate dampened decay, tight dry mono close-mic, no reverb, mid-high register, one-shot, single strike under 0.5 seconds, used as a clean precision radio imaging stinger for news alerts.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "bell_tap",
+      "attack": "percussive_click",
+      "texture": "metallic_click",
+      "spatial": "mono_dry",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_bell_tap_precise_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_bell_tap_precise_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 4,
+      "sfx-librarian": 4
+    },
+    "council_notes": {
+      "sfx-ear": "Precise, physically achievable description with concrete source and clear acoustic constraints",
+      "sfx-director": "Force-approved at cap — duration extended from 0.3s to 0.5s; dampened non-resonant character differentiates",
+      "sfx-librarian": "Force-approved at cap — dampened percussive click vs metallic ring diverges from entry #10 resonant_pulse"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_piano_stab_dampened_001",
+    "prompt": "Dampened piano chord stab with felt-damped strings stopping resonance immediately, percussive hammer attack with deadened cutoff, dry studio close mic, tight under 1 second, one-shot, 100 BPM in A minor, used as a short dramatic radio stinger for emotional narrative moments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "piano_stab",
+      "attack": "felt_damped",
+      "texture": "hammer_strike",
+      "spatial": "close_studio",
+      "frequency": "mid_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_piano_stab_dampened_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_piano_stab_dampened_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Physically plausible felt-damped piano stab with clear attack/sustain/cutoff envelope",
+      "sfx-director": "Dampened deadened cutoff ensures it cuts cleanly — dramatic minor-key character suits narrative",
+      "sfx-librarian": "Felt-damped piano is genuinely novel acoustic source; deadened cutoff differentiates"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_guitar_strum_palmmuted_001",
+    "prompt": "Sharp dampened acoustic guitar strummed chord with bright steel-string attack, immediate palm mute cutoff, dry close studio perspective with no ring-out, one-shot, 95 BPM in G major, used as a percussive organic radio stinger for lifestyle segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "guitar_strum",
+      "attack": "palmmuted",
+      "texture": "bright_steel",
+      "spatial": "dry_studio",
+      "frequency": "mid_range"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_guitar_strum_palmmuted_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_guitar_strum_palmmuted_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Highly specific with clear source, tonal descriptors, and explicit decay control",
+      "sfx-director": "Palm mute cutoff with no ring-out is exactly right for a dry organic stinger",
+      "sfx-librarian": "Acoustic guitar is novel source; palm mute cutoff and organic steel-string texture provide differentiation"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_violin_pizzicato_crisp_001",
+    "prompt": "Plucked violin pizzicato note with crisp biting attack, bright high-register tone, dry studio acoustic with fast decay, single plucked string, one-shot, used as a precise classical radio stinger for arts segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "violin_pizzicato",
+      "attack": "plucked",
+      "texture": "crisp_bite",
+      "spatial": "dry_studio",
+      "frequency": "high_bright"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_violin_pizzicato_crisp_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_violin_pizzicato_crisp_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent acoustic specificity with clear source, tonal descriptors, and spatial context",
+      "sfx-director": "Pizzicato with dry acoustic and fast decay is right approach for a classical stinger — precise and brief",
+      "sfx-librarian": "Violin pizzicato is novel classical source; crisp plucked-string attack fundamentally different from fragmented digital"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_double_bass_snapped_001",
+    "prompt": "Snapped double bass string pizzicato with tight dampened attack, immediate left-hand mute cutoff, close dry perspective, low-mid thump with no sustaining resonance, one-shot, staccato under 0.5 seconds, used as a percussive low-end radio stinger for jazz segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "double_bass",
+      "attack": "snapped",
+      "texture": "dampened_thump",
+      "spatial": "close_dry",
+      "frequency": "low_warm"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_double_bass_snapped_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_double_bass_snapped_001.mp3",
+    "council_scores": {
+      "sfx-ear": 10,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Perfectly specific with clear source, attack characteristics, explicit decay control, and temporal constraint",
+      "sfx-director": "Double bass pizz with left-hand mute cutoff and no resonance is textbook stinger technique — tight and punchy",
+      "sfx-librarian": "Double bass pizzicato is novel jazz source; left-hand dampened thump sonically distinct from existing entries"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_sub_bass_descending_001",
+    "prompt": "Descending pure sub-bass tone stinger sweeping from 80Hz to 40Hz, clean sine oscillation with no harmonics, centered tight mono with immediate cut at sweep end, under 1 second, one-shot, used as a deep radio stinger for club segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "sub_bass",
+      "attack": "descending",
+      "texture": "pure_sine",
+      "spatial": "centered_mono",
+      "frequency": "sub_only"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_sub_bass_descending_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_sub_bass_descending_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Precise physical description (80Hz-40Hz sine sweep, mono, immediate cut) with no conflicts",
+      "sfx-director": "Sub-bass sweep clean and mono-tight; immediate cut is exactly right for a club stinger",
+      "sfx-librarian": "Pure sine sub-bass with immediate cut distinct from existing sub-bass entries — no harmonics, centered tight"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_synth_burst_modulated_001",
+    "prompt": "Modulated synth burst with clean high-mid tone, centered mono with tight envelope, fast LFO sweep with bright filter accent and instant cutoff, one-shot, 140 BPM, used as a modern electronic radio stinger for youth segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "synth_burst",
+      "attack": "modulated",
+      "texture": "clean_filter",
+      "spatial": "centered_mono",
+      "frequency": "high_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_synth_burst_modulated_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_synth_burst_modulated_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Highly specific and acoustically coherent — modulation, LFO sweep, filter accent all align",
+      "sfx-director": "High-mid synth burst with instant cutoff fits stinger perfectly — tight envelope ensures cut",
+      "sfx-librarian": "Shares synth source and high-mid with #8 but LFO sweep modulation provides differentiation; passes"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_synth_arpeggio_melodic_001",
+    "prompt": "Fast analog synth arpeggio sequence with warm mid-range tone burst, bright filter sweep accent, tight dry delivery with no reverb, immediate cutoff at end, one-shot, 130 BPM in C major, used as a melodic tech radio stinger.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "synth_arpeggio",
+      "attack": "fast_sequence",
+      "texture": "melodic_pattern",
+      "spatial": "dry_tight",
+      "frequency": "mid_warm"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_synth_arpeggio_melodic_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_synth_arpeggio_melodic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Clean arpeggio definition with concrete musical key, BPM, dry delivery, and immediate cutoff",
+      "sfx-director": "Melodic arpeggio works as tech stinger; dry delivery ensures clean cutoff",
+      "sfx-librarian": "Arpeggio melodic sequence is genuinely novel — no existing stinger has pitched note pattern"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_fm_synth_glassy_001",
+    "prompt": "Glassy FM synth hit with warm metallic body, clean close production, bright mid-high frequency with glassy attack and tight dampened decay under 1 second, no reverb, one-shot, used as a futuristic radio imaging stinger for technology segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "fm_synth",
+      "attack": "glassy",
+      "texture": "metallic_warm",
+      "spatial": "clean_close",
+      "frequency": "mid_bright"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_fm_synth_glassy_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_fm_synth_glassy_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 5
+    },
+    "council_notes": {
+      "sfx-ear": "Glassy FM synth hit with warm metallic body is slightly contradictory but renderable and well-structured",
+      "sfx-director": "Explicitly under 1 second with dampened decay and no reverb — textbook broadcast stinger",
+      "sfx-librarian": "Force-approved at cap — FM glassy timbre fundamentally different from #10's resonant pulse metallic ring"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_noise_sweep_descending_001",
+    "prompt": "Descending filter noise sweep stinger from high to low frequency, grainy textured noise, centered narrow mono field with high-pass above 200Hz for voice clearance, tight cutoff at sweep end, one-shot, under 2 seconds, used as a cinematic radio transition stinger.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "noise_sweep",
+      "attack": "descending_filter",
+      "texture": "grainy_wash",
+      "spatial": "narrow_mono",
+      "frequency": "full_sweeping"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_noise_sweep_descending_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_noise_sweep_descending_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent physical detail — filter noise sweep, grainy texture, high-pass >200Hz, tight cutoff",
+      "sfx-director": "High-pass at 200Hz for voice clearance is smart broadcast thinking; descending sweep cuts cleanly",
+      "sfx-librarian": "Grainy noise sweep texture not represented — descending direction + noise source is fresh combination"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_bitcrush_gritty_001",
+    "prompt": "Low-fidelity bitcrushed synth stab with aliased glitch crunch, wide stereo distorted spread, gritty bright high-mid grain texture, aggressive attack with instant digital cutoff, one-shot, used as a lo-fi retro radio stinger for gaming segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "bitcrush",
+      "attack": "aggressive",
+      "texture": "aliased_glitch",
+      "spatial": "wide_stereo",
+      "frequency": "bright_high_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_bitcrush_gritty_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_bitcrush_gritty_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Vivid, unambiguous audio-production terms — bitcrushed, aliased glitch, wide stereo distorted spread",
+      "sfx-director": "Aliased glitch crunch and wide distorted spread risk listener fatigue on rotation but functional",
+      "sfx-librarian": "Bitcrushed lo-fi distinct from 8-bit #6; wide stereo distorted spread separates from tight_dry #4"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_saw_wave_aggressive_001",
+    "prompt": "Aggressive saw wave synth chord with thick rasping buzz, centered tight mono delivery with controlled mid-range, quick attack and abrupt release with no tail, one-shot, 120 BPM in E minor, used as an edgy radio stinger for rock segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "saw_wave",
+      "attack": "aggressive_buzz",
+      "texture": "thick_rasping",
+      "spatial": "centered_mono",
+      "frequency": "mid_rasp"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_saw_wave_aggressive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_saw_wave_aggressive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Clear saw-wave chord description with precise envelope and BPM/key — no conflicts",
+      "sfx-director": "Saw chord in tight mono with abrupt release cuts exactly right for rock — no tail, airready",
+      "sfx-librarian": "Saw wave chord source distinct from plasma_wobble #7; centered mono delivery differentiates"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_dual_tone_throbbing_001",
+    "prompt": "Low-frequency dual-tone synth throb with two sub intervals beating together, centered mono with slight saturation warmth, percussive attack with immediate decay under 0.8 seconds, one-shot, used as a minimal low-end radio stinger for podcast bumpers.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "dual_tone",
+      "attack": "percussive_throb",
+      "texture": "beating_intervals",
+      "spatial": "centered_mono",
+      "frequency": "low_sub"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_dual_tone_throbbing_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_dual_tone_throbbing_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Dual-tone sub beating with precise decay spec and mono saturation — physically plausible and specific",
+      "sfx-director": "Sub-frequency throb with explicit 0.8s cap is production-ready — best utility score of batch",
+      "sfx-librarian": "Low-frequency territory overlaps #1 and #3 but dual-tone beating intervals and saturation introduce distinct throbbing texture"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_laser_sweep_metallic_001",
+    "prompt": "Fast phaser laser sweep with metallic comb-filtered texture, centered mono with slight stereo widening, bright mid-high pitch bend descending, tight cutoff with no tail, one-shot, used as a sci-fi radio stinger for futuristic segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "laser_sweep",
+      "attack": "fast_phaser",
+      "texture": "comb_filtered",
+      "spatial": "centered_stereo",
+      "frequency": "mid_high_swept"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_laser_sweep_metallic_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_laser_sweep_metallic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Strong laser sweep imagery — centered mono with slight stereo widening renderable",
+      "sfx-director": "Phaser laser sweep with tight cutoff works well for sci-fi imaging — mono-centered, cuts cleanly",
+      "sfx-librarian": "Metallic comb-filtered phaser texture is novel; descending pitch bend with tight cutoff separates from synthesized_zap #8"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_granular_glitch_fragmented_001",
+    "prompt": "Fragmented granular glitch burst with deep low-end sub rumble beneath micro-chopped glitch hits, centered placement with tight delivery, layered high and low frequencies, tight dry finish, one-shot, used as an experimental radio stinger for avant-garde segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "granular_glitch",
+      "attack": "fragmented_burst",
+      "texture": "layered_sub_glitch",
+      "spatial": "centered_tight",
+      "frequency": "high_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_granular_glitch_fragmented_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_granular_glitch_fragmented_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Fragmented granular glitch with layered sub-rumble is coherent; tight dry finish resolves potential muddiness",
+      "sfx-director": "Granular glitch with dry finish and sub rumble beneath is tight and layered — cuts clean",
+      "sfx-librarian": "Granular micro-chopped texture is novel; layering sub+glitch high/low approach is distinct from digital_glitchy #4"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_glass_shatter_explosive_001",
+    "prompt": "Shattering glass crash stinger with splintering shard fragments, close room perspective, bright high-frequency break with metallic ring, chaotic multi-hit attack with fast decay under 1 second, one-shot, used as a dramatic radio stinger for tension or accident moments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "glass_shatter",
+      "attack": "chaotic_multi",
+      "texture": "splintering",
+      "spatial": "close_room",
+      "frequency": "high_crash"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_glass_shatter_explosive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_glass_shatter_explosive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Glass shatter physically achievable with specific acoustic detail — clear render targets",
+      "sfx-director": "Good duration under 1s, bright metallic break has strong cut-through for dramatic moments",
+      "sfx-librarian": "Shares bright_high/close/percussive with #9 mechanical_spark but glass source helps | passes"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_wood_block_percussive_001",
+    "prompt": "Hard wood block strike with sharp mid-frequency knock, dry close microphone, percussive accent hit with fast resonant snap and immediate dampened cutoff, one-shot, used as a rhythmic impact radio stinger for comedy timing.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "wood_block",
+      "attack": "hard_strike",
+      "texture": "resonant_snap",
+      "spatial": "dry_close",
+      "frequency": "mid_knock"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_wood_block_percussive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_wood_block_percussive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Physically achievable with clear source, attack, and space",
+      "sfx-director": "Sharp mid-frequency knock with fast dampened cutoff is clean and punchy for comedy timing",
+      "sfx-librarian": "Wood block source is distinct; sharp/percussive/close-dry shares structural traits with #9 but timbre differentiates"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_metal_pipe_ringing_001",
+    "prompt": "Struck metal pipe with ringing sustained echo decay, distant alley spatial with mid-low metallic resonance, ringing tail dampened under 1.5 seconds, one-shot, used as an industrial radio stinger for urban or gritty programming segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "metal_pipe",
+      "attack": "struck_echo",
+      "texture": "ringing_sustain",
+      "spatial": "alley_distant",
+      "frequency": "mid_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_metal_pipe_ringing_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_metal_pipe_ringing_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Metal pipe strike achievable with clear spatial and tonal anchors",
+      "sfx-director": "Duration okay under 1.5s, ringing tail dampened — usable industrial stinger",
+      "sfx-librarian": "Distant alley spatial and sustained ringing decay diverge sharply from entry #10 tight_dry metallic_ring"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_water_drop_percussive_001",
+    "prompt": "Sharp water droplet plink with percussive liquid snap, dampened close-mic perspective with no room echo, mid-high frequency transient hit with fast cutoff under 0.5 seconds, one-shot, used as a bright radio stinger for reflective segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "water_drop",
+      "attack": "percussive_snap",
+      "texture": "clean_liquid",
+      "spatial": "dampened_close",
+      "frequency": "mid_high_plink"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_water_drop_percussive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_water_drop_percussive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Exceptionally coherent — every element reinforces same sonic goal with precise audio terminology",
+      "sfx-director": "Close-mic dampened perspective ensures clean mixability with voice; sub-0.5s cutoff tight and punchy",
+      "sfx-librarian": "Water droplet liquid source is completely unrepresented; dampened close-mic differentiates"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_stomp_heavy_001",
+    "prompt": "Heavy stomp footstep with floor thud impact, indoor room acoustic, low-frequency body with solid weight and tight close perspective, immediate cutoff, one-shot, used as a grounding radio stinger for dramatic reveals or suspense moments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "stomp",
+      "attack": "heavy_stamp",
+      "texture": "floor_thud",
+      "spatial": "indoor_room",
+      "frequency": "low_thud"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_stomp_heavy_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_stomp_heavy_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Heavy stomp acoustically clear — floor thud, low-frequency body, tight close perspective, immediate cutoff",
+      "sfx-director": "Solid stinger — low-frequency weight gives impact, immediate cutoff ensures clean cut, good for dramatic reveals",
+      "sfx-librarian": "Foley footstep with low-frequency thud and close room perspective has no close match in pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_paper_tear_ripping_001",
+    "prompt": "Ripping paper tear burst with fibrous crackle texture, wide stereo room perspective, bright high-frequency rip with fast transient, tight cutoff, one-shot, used as a textured radio stinger for storytelling segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "paper_tear",
+      "attack": "ripping_burst",
+      "texture": "fibrous_crackle",
+      "spatial": "wide_stereo",
+      "frequency": "high_rip"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_paper_tear_ripping_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_paper_tear_ripping_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Well-defined source with fibrous texture, clear spatial and frequency info, explicit duration control",
+      "sfx-director": "Wide stereo room perspective risks fatigue on repeated broadcast plays but functional for storytelling",
+      "sfx-librarian": "Paper tear completely unrepresented — fibrous crackle texture and wide stereo perspective have no meaningful overlap"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_whip_crack_sharp_001",
+    "prompt": "Cracking leather whip snap with sharp splitting sound, open air spatial with no reverb, bright mid-high crack with immediate attack and fast decay, one-shot, used as an aggressive radio stinger for western or action segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "whip_crack",
+      "attack": "cracking_snap",
+      "texture": "sharp_split",
+      "spatial": "open_air",
+      "frequency": "mid_high_crack"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_whip_crack_sharp_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_whip_crack_sharp_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Whip crack physically precise — sharp splitting sound, open air with no reverb, all non-contradictory",
+      "sfx-director": "Classic aggressive stinger energy — sharp attack, fast decay, no reverb clutter; ideal for western/action",
+      "sfx-librarian": "Mostly novel; shares sharp and mid_high with #2 brass but open_air no_reverb spatial unoccupied"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_thunder_crack_sharp_001",
+    "prompt": "Sharp thunder crack stinger with explosive attack, no rolling decay tail, tight controlled cutoff under 1 second, dry close outdoor-mic perspective, mid-low frequency body with instant cutoff, one-shot, used as a powerful radio stinger for dramatic announcements.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "thunder_crack",
+      "attack": "explosive_sharp",
+      "texture": "dry_crack",
+      "spatial": "outdoor_close",
+      "frequency": "mid_low_boom"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_thunder_crack_sharp_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_thunder_crack_sharp_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "No rolling decay tail and powerful stinger slightly pull against each other for thunder but under 1s anchors it",
+      "sfx-director": "Mid-low body with explosive attack and zero tail is exactly what a dramatic radio stinger needs",
+      "sfx-librarian": "Shares explosive + low-freq with #3 but tight cutoff with no rolling tail opposite spatial behavior"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_fire_burst_sudden_001",
+    "prompt": "Short fire burst stinger with sudden whooshing attack, fast crackling blaze texture, centered mono with immediate cutoff, no tail, one-shot, under 1 second, used as a primal radio stinger for survival segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "fire_burst",
+      "attack": "sudden_whoosh",
+      "texture": "crackling_blaze",
+      "spatial": "centered_mono",
+      "frequency": "mid_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_fire_burst_sudden_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_fire_burst_sudden_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Fire burst physically grounded — whooshing blaze texture, close campfire spatial, controlled decay",
+      "sfx-director": "Centered mono, no tail, under 1s — production-ready specs; crackling fire texture reads clearly",
+      "sfx-librarian": "Fire burst with crackling blaze texture is novel source; centered mono no-tail distinct"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_vocal_shout_guttural_001",
+    "prompt": "Abrupt vocal shout stinger with guttural bark, tight room acoustic, mid-frequency raw yelled syllable, single percussive exclamation with immediate cutoff, one-shot, 120 BPM, used as an intense radio stinger for sports or contest segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "vocal_shout",
+      "attack": "abrupt_bark",
+      "texture": "guttural_raw",
+      "spatial": "room_tight",
+      "frequency": "mid_shout"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_vocal_shout_guttural_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_vocal_shout_guttural_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 8,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Vocal shout achievable — guttural bark, tight room, mid-frequency raw yell, immediate cutoff",
+      "sfx-director": "Guttural bark with immediate cutoff is exactly what a stinger needs — percussive exclamation punches through",
+      "sfx-librarian": "Shared tight/mid/clean timing with entries #6 and #10 but vocal source helps — passes"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T15:56:43Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_brass_hit_biting_001",
+    "prompt": "Short urgent brass stab with biting attack, tight dampened decay with no hall tail, dry close mic, mid-low punch, one-shot, 100 BPM in F minor, used as a breaking news radio stinger for major announcements.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "brass_hit",
+      "attack": "biting",
+      "texture": "sharp_blare",
+      "spatial": "dry_close",
+      "frequency": "mid_low_brass"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_brass_hit_biting_001.mp3",
+    "output_path": "sfx_library/news/news_brass_hit_biting_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity — brass stab, dry close mic, dampened decay, BPM, key",
+      "sfx-director": "Biting brass with dampened decay — urgent enough, dry enough to cut cleanly",
+      "sfx-librarian": "Brass is a genuinely new source for news category; biting attack distinct from existing entries"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:46Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_timpani_percussive_001",
+    "prompt": "Single tight timpani hit with percussive boom, dry studio damping with fast cutoff, sub-low resonance with no tail, one-shot, under 1 second, used as a dramatic news radio stinger for urgent bulletins.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "timpani",
+      "attack": "percussive_boom",
+      "texture": "resonant_drumhead",
+      "spatial": "dry_studio",
+      "frequency": "sub_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_timpani_percussive_001.mp3",
+    "output_path": "sfx_library/news/news_timpani_percussive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Timpani hit with sub-low resonance and fast cutoff is physically accurate",
+      "sfx-director": "Sub-low timpani punch under 1 second — classic urgent-bulletin energy",
+      "sfx-librarian": "Timpani is novel source; percussive boom with sub-low resonance distinct from existing entries"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:46Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_mechanical_bell_urgent_001",
+    "prompt": "Urgent mechanical bell ring with percussive metallic tone, pulsed staccato pattern, tight mono delivery, immediate cut, one-shot, used as a breaking news alert radio stinger for urgent bulletins.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "mechanical_bell",
+      "attack": "staccato_pulse",
+      "texture": "metallic_tone",
+      "spatial": "tight_mono",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_mechanical_bell_urgent_001.mp3",
+    "output_path": "sfx_library/news/news_mechanical_bell_urgent_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Pulsed staccato implies multiple onsets vs one-shot — minor ambiguity",
+      "sfx-director": "Metallic bell and staccato pattern convey urgency; test single hit vs full pattern",
+      "sfx-librarian": "Mechanical bell is new source; pulsed metallic tone diverges from existing synth alerts"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:46Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_synth_impact_metallic_001",
+    "prompt": "Heavy synth impact crash with layered metallic body, tight dry room, low-mid weight with immediate cutoff, one-shot, used as a modern news radio stinger for breaking developments.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "synth_impact",
+      "attack": "heavy_crash",
+      "texture": "layered_metallic",
+      "spatial": "tight_dry",
+      "frequency": "low_mid_crash"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_synth_impact_metallic_001.mp3",
+    "output_path": "sfx_library/news/news_synth_impact_metallic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Strong descriptors, minor tension between heavy and immediate cutoff",
+      "sfx-director": "Heavy synth impact with immediate cutoff hits brief perfectly — modern urgency",
+      "sfx-librarian": "Synth impact with layered metallic body diff from existing synth-based entries"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:46Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_bowed_metal_dark_001",
+    "prompt": "Deep bowed metal sheet scrape with low grating resonance, close studio perspective with dampened cutoff, dark metallic texture, one-shot, used as a tension news radio stinger for critical updates.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "bowed_metal",
+      "attack": "grating_scrape",
+      "texture": "dark_metallic",
+      "spatial": "close_studio",
+      "frequency": "dark_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_bowed_metal_dark_001.mp3",
+    "output_path": "sfx_library/news/news_bowed_metal_dark_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 5,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Fully grounded in real physical source with clear texture and spatial perspective",
+      "sfx-director": "Force-approved at cap — low grating resonance controlled dampened cutoff; usable",
+      "sfx-librarian": "Bowed metal sheet scrape is a genuinely novel sonic source — wholly unique"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_telephone_dial_mechanical_001",
+    "prompt": "Staccato rotary telephone dial pulse with mechanical clicking tone, rhythmic progressive pattern, tight mono with immediate cutoff, one-shot, used as a news radio stinger for developing stories.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "telephone_dial",
+      "attack": "mechanical_click",
+      "texture": "staccato_rotary",
+      "spatial": "tight_mono",
+      "frequency": "mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_telephone_dial_mechanical_001.mp3",
+    "output_path": "sfx_library/news/news_telephone_dial_mechanical_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 6,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent concrete source; rhythmic progressive vs one-shot minor ambiguity",
+      "sfx-director": "Rotary telephone dial is solid distinctive angle; constrain to tight burst",
+      "sfx-librarian": "Rotary telephone dial mechanism unrepresented source; distinct from teletype entry"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_sub_rumble_ominous_001",
+    "prompt": "Deep subsonic rumble throb with sustained low-frequency vibration, centered mono image, felt rather than heard, immediate cut, one-shot, under 1 second, used as an ominous news radio stinger for developing stories.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "sub_rumble",
+      "attack": "deep_throb",
+      "texture": "sustained_vibration",
+      "spatial": "centered_mono",
+      "frequency": "sub_only"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_sub_rumble_ominous_001.mp3",
+    "output_path": "sfx_library/news/news_sub_rumble_ominous_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Felt rather than heard is borderline vague but subsonic rumble provides anchor",
+      "sfx-director": "Subsonic rumble under 1s with immediate cut suits ominous developing stories",
+      "sfx-librarian": "Subsonic rumble as one-shot stinger distinct in format from existing entries"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_choir_stab_dramatic_001",
+    "prompt": "Tight staccato choir hit with percussive vocal burst, dry studio close mic, mid-range harmonic impact with instant cutoff, one-shot, used as a dramatic news radio stinger for major developments.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "choir_stab",
+      "attack": "staccato_burst",
+      "texture": "harmonic_cluster",
+      "spatial": "dry_studio",
+      "frequency": "mid_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_choir_stab_dramatic_001.mp3",
+    "output_path": "sfx_library/news/news_choir_stab_dramatic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Choir hit with percussive vocal burst, close mic, instant cutoff — clean and consistent",
+      "sfx-director": "Choir hit adds dramatic gravity uncommon in standard stingers; dry close-mic keeps it tight",
+      "sfx-librarian": "Choir is a completely new source for news category; percussive vocal burst unique"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_snare_roll_building_001",
+    "prompt": "Building snare drum roll with percussive crescendo and rattling wire, live room ambience, mid-range rhythmic tension culminating in a final hit, one-shot, under 2 seconds, used as a dramatic news stinger for military or state occasions.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "snare_roll",
+      "attack": "building_crescendo",
+      "texture": "rattling_wire",
+      "spatial": "room_live",
+      "frequency": "mid_range"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_snare_roll_building_001.mp3",
+    "output_path": "sfx_library/news/news_snare_roll_building_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity — snare roll, rattling wire, live room, rhythmic tension",
+      "sfx-director": "Snare roll works for state occasions; under 2s keeps it within stinger spec",
+      "sfx-librarian": "Snare drum with rattling wire unrepresented acoustic source; distinct from existing entries"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_pipe_organ_stab_solemn_001",
+    "prompt": "Deep pipe organ low chord stab with dark harmonic body, dry damping with fast cutoff, resonant low-mid weight, one-shot, 85 BPM in C minor, used as a solemn news radio stinger for tragic developments.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "pipe_organ",
+      "attack": "low_chord",
+      "texture": "dark_harmonic",
+      "spatial": "dry_studio",
+      "frequency": "low_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_pipe_organ_stab_solemn_001.mp3",
+    "output_path": "sfx_library/news/news_pipe_organ_stab_solemn_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Pipe organ chord stab with dark harmonic body, dry damping — highly specific",
+      "sfx-director": "Pipe organ in C minor strong solemnity signal for tragic news; dry damping production-clean",
+      "sfx-librarian": "Pipe organ is new source; low-mid stab territory getting crowded but passes"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_cello_scrape_harsh_001",
+    "prompt": "Harsh cello bow scrape with low growling texture, close intimate microphone perspective, dark low-mid resonance with fast dampened decay, one-shot, used as an investigative news radio stinger for serious exposés.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "cello_scrape",
+      "attack": "harsh_bow",
+      "texture": "low_growl",
+      "spatial": "close_intimate",
+      "frequency": "dark_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_cello_scrape_harsh_001.mp3",
+    "output_path": "sfx_library/news/news_cello_scrape_harsh_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Physically achievable with concrete source; clear and specific",
+      "sfx-director": "Dark investigative tone is right; works as a stinger that cuts, not scrapes",
+      "sfx-librarian": "Harsh cello bow scrape with dark growling texture is entirely unrepresented"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_french_horn_solemn_001",
+    "prompt": "Solemn French horn single note with warm mid tone, short hall bloom with tight cutoff, dignified resonant peak under 1.5 seconds, one-shot, 80 BPM in A minor, used as a ceremonial news radio stinger for memorial or state occasions.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "french_horn",
+      "attack": "solemn_note",
+      "texture": "warm_tone",
+      "spatial": "hall_short",
+      "frequency": "warm_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_french_horn_solemn_001.mp3",
+    "output_path": "sfx_library/news/news_french_horn_solemn_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "BPM is meaningless for a single sustained note, but otherwise solid",
+      "sfx-director": "French horn with hall bloom and tight cutoff is textbook ceremonial news stinger",
+      "sfx-librarian": "French horn diverges from all existing news stingers — brass instrumentation new"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_tape_splice_retro_001",
+    "prompt": "Quick magnetic tape splice pop with warm analog transient, subtle mid-frequency click, slight pre-echo characteristic, close perspective with tight cutoff, one-shot, used as a retro news radio stinger.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "tape_splice",
+      "attack": "analog_pop",
+      "texture": "warm_transient",
+      "spatial": "close_perspective",
+      "frequency": "mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_tape_splice_retro_001.mp3",
+    "output_path": "sfx_library/news/news_tape_splice_retro_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Tape splice pop, pre-echo, mid-frequency click — real analog artifacts, highly renderable",
+      "sfx-director": "Retro tape-splice pop works as a stinger; tight cutoff confirms correct 1-2s structure",
+      "sfx-librarian": "Magnetic tape splice with warm analog transient is completely novel source"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_glass_bottle_shatter_001",
+    "prompt": "Single glass bottle break with controlled mid-high shatter, close room perspective, single decisive impact with fast sharp decay under 1 second, one-shot, used as a dramatic news stinger for accident reports.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "glass_bottle",
+      "attack": "decisive_impact",
+      "texture": "controlled_shatter",
+      "spatial": "close_room",
+      "frequency": "bright_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_glass_bottle_shatter_001.mp3",
+    "output_path": "sfx_library/news/news_glass_bottle_shatter_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Glass bottle break with defined decay envelope and room perspective — concrete source",
+      "sfx-director": "Bottle break under 1 second fits news stinger spec; decisive impact suits accident reports",
+      "sfx-librarian": "Glass bottle break is wholly unrepresented physical source in entire library"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_vocal_grunt_intense_001",
+    "prompt": "Sharp percussive vocal grunt with urgent breathy attack, tight room acoustic, mid-frequency exhalation with immediate cutoff, one-shot, used as an intense breaking news stinger for live event coverage.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "vocal_grunt",
+      "attack": "sharp_breathy",
+      "texture": "percussive_exhale",
+      "spatial": "tight_room",
+      "frequency": "mid_freq"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.7,
+    "output_filename": "news_vocal_grunt_intense_001.mp3",
+    "output_path": "sfx_library/news/news_vocal_grunt_intense_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Sharp percussive and breathy mildly tension each other but immediate cutoff rescues it",
+      "sfx-director": "Vocal grunt with immediate cutoff lands as urgent breaking-news stinger — not gratuitous",
+      "sfx-librarian": "Percussive vocal grunt introduces human voice as source — entirely absent from news pool"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_bassoon_drone_gentle_001",
+    "prompt": "Soft bassoon drone with gentle warm reed tone, close room perspective, steady sustained bed with subtle harmonic movement, loopable 30-second track, 72 BPM in D minor, used as a calm under-voice news bed for feature reports and human-interest stories.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "bassoon",
+      "attack": "gentle_drone",
+      "texture": "reed_warm",
+      "spatial": "close_room",
+      "frequency": "soft_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_bassoon_drone_gentle_001.mp3",
+    "output_path": "sfx_library/news/news_bassoon_drone_gentle_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 9,
+      "sfx-librarian": 3
+    },
+    "council_notes": {
+      "sfx-ear": "Bassoon drone solid but usage tail should be timbral descriptor instead",
+      "sfx-director": "Perfectly calibrated news bed — D minor serious tone, 30s loopable, reed texture under voice",
+      "sfx-librarian": "Force-approved at cap — bassoon is distinct acoustic woodwind vs harmonium reed organ"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_string_pizzicato_light_001",
+    "prompt": "Soft orchestral string pizzicato with light plucked articulation, gentle mid-range melodic pattern, studio dry acoustic, sparse texture leaving voice space, loopable 30-second track, 92 BPM in G major, used as a light under-voice news bed for cultural features.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "string_pizzicato",
+      "attack": "light_plucked",
+      "texture": "sparse_melodic",
+      "spatial": "dry_studio",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_string_pizzicato_light_001.mp3",
+    "output_path": "sfx_library/news/news_string_pizzicato_light_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 9,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "String pizzicato with studio-dry acoustic and sparse texture is precise",
+      "sfx-director": "30s loopable at 92 BPM G major; sparse texture leaving voice space — deliberate mix design",
+      "sfx-librarian": "Orchestral pizzicato entirely novel in news bed pool — no entry uses plucked string technique"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_mallet_percussion_light_001",
+    "prompt": "Soft mallet percussion with light rhythmic pattern on wooden bars, dry studio acoustic with precise stereo image, unobtrusive pulse, loopable 30-second track, 100 BPM in C major, used as a light under-voice news bed for business updates.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "mallet_percussion",
+      "attack": "soft_strikes",
+      "texture": "wooden_bars",
+      "spatial": "dry_studio",
+      "frequency": "bright_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_mallet_percussion_light_001.mp3",
+    "output_path": "sfx_library/news/news_mallet_percussion_light_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Precise and clean — wooden mallet bars, dry studio, specific stereo image",
+      "sfx-director": "Dry studio mallet in C major is clean and professional for business updates",
+      "sfx-librarian": "Soft mallet percussion on wooden bars is novel acoustic source for news"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_upright_bass_smooth_001",
+    "prompt": "Smooth upright bass walking pulse with warm low thump, close warm studio perspective, steady groove with space for voice, loopable 30-second track, 85 BPM in D minor, used as a jazz-influenced under-voice news bed for late-night analysis.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "upright_bass",
+      "attack": "walking_pulse",
+      "texture": "smooth_thump",
+      "spatial": "warm_studio",
+      "frequency": "low_warm"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_upright_bass_smooth_001.mp3",
+    "output_path": "sfx_library/news/news_upright_bass_smooth_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Well-specified jazz bed — upright bass, close warm studio, steady groove",
+      "sfx-director": "D minor walking bass groove solid for late-night analysis; warm low-end with voice gaps",
+      "sfx-librarian": "Upright bass walking pulse is entirely novel instrumentation for news"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_electric_piano_warm_001",
+    "prompt": "Warm electric piano sustained chords with soft bell-like tone, close studio perspective, gentle harmonic movement with space for voice, loopable 30-second track, 85 BPM in E minor, used as a thoughtful under-voice news bed for investigative journalism.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "electric_piano",
+      "attack": "sustained_chords",
+      "texture": "bell_like",
+      "spatial": "close_studio",
+      "frequency": "soft_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_electric_piano_warm_001.mp3",
+    "output_path": "sfx_library/news/news_electric_piano_warm_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 9,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Electric piano sustained chords with bell-like tone — specific and clear",
+      "sfx-director": "30s loopable in E minor with space for voice — tailored for investigative journalism",
+      "sfx-librarian": "Electric piano diverges mood/texture from existing electric_piano bed; passes"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_vibraphone_mellow_001",
+    "prompt": "Mellow vibraphone mallet pattern with resonant metallic bars, natural room acoustic, clear mid-frequency melodic phrases, loopable 30-second track, 92 BPM in A minor, used as a thoughtful under-voice news bed for analysis segments.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "vibraphone",
+      "attack": "mellow_mallet",
+      "texture": "resonant_bars",
+      "spatial": "room_natural",
+      "frequency": "clear_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_vibraphone_mellow_001.mp3",
+    "output_path": "sfx_library/news/news_vibraphone_mellow_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Well-defined source — vibraphone with resonant bars, natural room, musical parameters",
+      "sfx-director": "Vibraphone is broadcast standard for news beds; clear mid-frequency sits under voice well",
+      "sfx-librarian": "Vibraphone overlaps with bgm_vibraphone_bowed but mallet vs bowed technique diverges sufficiently"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_brass_ensemble_dignified_001",
+    "prompt": "Warm brass ensemble pads with broad sustained chords, wide hall stereo spread, rich mid-range harmonic texture leaving space for voice, loopable 30-second track, 78 BPM in C minor, used as a dignified under-voice news bed for state occasions.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "brass_ensemble",
+      "attack": "broad_chords",
+      "texture": "warm_pads",
+      "spatial": "hall_wide",
+      "frequency": "broad_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_brass_ensemble_dignified_001.mp3",
+    "output_path": "sfx_library/news/news_brass_ensemble_dignified_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Brass ensemble with sustained chords, wide hall, specific key/BPM — physically achievable",
+      "sfx-director": "Warm brass pads work for dignified state content; rich mid-range borderline dense but passes",
+      "sfx-librarian": "Brass ensemble pads are novel — neither catalog contains brass instrumentation"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_glass_harmonica_atmospheric_001",
+    "prompt": "Slowly morphing glass harmonica texture with warm evolving tones, close atmospheric perspective with soft body, gentle mid-range movement with dark warmth, loopable 30-second track, 68 BPM in E minor, used as an atmospheric under-voice news bed for reflective features.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "glass_harmonica",
+      "attack": "slow_morph",
+      "texture": "crystalline_evolving",
+      "spatial": "close_atmos",
+      "frequency": "warm_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_glass_harmonica_atmospheric_001.mp3",
+    "output_path": "sfx_library/news/news_glass_harmonica_atmospheric_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Strong acoustic specificity; minor tension between dark warmth and crystalline timbre",
+      "sfx-director": "Glass harmonica texture carries inherent shimmer risk but warm body mitigates; passes",
+      "sfx-librarian": "Glass harmonica is completely novel timbral source — distinct from all existing entries"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_harp_flowing_001",
+    "prompt": "Flowing harp arpeggios with warm mid-register tones, soft room acoustic with gentle ambience, delicate movement leaving voice space, loopable 30-second track, 88 BPM in G major, used as a light under-voice news bed for arts and culture segments.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "harp",
+      "attack": "flowing_arpeggios",
+      "texture": "bright_swirl",
+      "spatial": "room_airy",
+      "frequency": "airy_high"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_harp_flowing_001.mp3",
+    "output_path": "sfx_library/news/news_harp_flowing_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Harp arpeggios with warm mid-register, soft room — clear and plausible",
+      "sfx-director": "Harp inherently bright but warm mid-register shift and voice space language mitigate it",
+      "sfx-librarian": "Harp is entirely absent from both catalogs — flowing arpeggios occupy distinct niche"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_viola_ensemble_somber_001",
+    "prompt": "Slow legato viola ensemble with dark warm harmony, close studio perspective, bowed mid-range resonance with soft texture, loopable 30-second track, 76 BPM in F minor, used as a somber under-voice news bed for serious documentaries.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "viola_ensemble",
+      "attack": "slow_legato",
+      "texture": "dark_warm",
+      "spatial": "close_studio",
+      "frequency": "bowed_low"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_viola_ensemble_somber_001.mp3",
+    "output_path": "sfx_library/news/news_viola_ensemble_somber_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Legato viola ensemble with bowed mid-range resonance — specific and achievable",
+      "sfx-director": "Legato viola ensemble with dark warm harmony hits the news bed sweet spot — sustains under voice",
+      "sfx-librarian": "Viola ensemble shares territory with solo cello but ensemble texture and F minor differentiate"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_chamber_organ_gentle_001",
+    "prompt": "Soft chamber organ pad with gentle warm tonality, close room perspective, calm sustained texture with subtle harmonic shift, loopable 30-second track, 80 BPM in A major, used as a gentle under-voice news bed for sports or positive stories.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "chamber_organ",
+      "attack": "soft_pad",
+      "texture": "gentle_warm",
+      "spatial": "close_room",
+      "frequency": "wooden_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_chamber_organ_gentle_001.mp3",
+    "output_path": "sfx_library/news/news_chamber_organ_gentle_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Chamber organ pad with gentle warm tonality and subtle harmonic shift is clear",
+      "sfx-director": "Chamber organ pad is a broadcast staple; sustained texture works well for sports/positive",
+      "sfx-librarian": "Chamber organ is entirely new to the library — no overlap with existing entries"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_wind_chime_peaceful_001",
+    "prompt": "Delicate wind chime tinkle with metallic sparkle, outdoor spacious perspective, high bell-like shimmer, loopable 30-second track, 65 BPM in A major, used as a peaceful under-voice news bed for weather or nature features.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "wind_chime",
+      "attack": "delicate_tinkle",
+      "texture": "metallic_sparkle",
+      "spatial": "outdoor_space",
+      "frequency": "bell_high"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_wind_chime_peaceful_001.mp3",
+    "output_path": "sfx_library/news/news_wind_chime_peaceful_001.mp3",
+    "council_scores": {
+      "sfx-ear": 6,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Missing BPM and key are addressed; high bell-like shimmer is acoustically specific",
+      "sfx-director": "Wind chimes with bell-like shimmer leave voice spectrum clear — good for weather/nature",
+      "sfx-librarian": "Wind chimes absent from both catalogs — outdoor perspective and bell-like register distinct"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_filtered_choir_subtle_001",
+    "prompt": "Soft filtered vocal choir drone with warm low-mid resonance, distant hall perspective, gentle harmonic wash rolling off above 2kHz for voice clearance, loopable 30-second track, 76 BPM in D minor, used as a subtle under-voice news bed for human-interest features.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "filtered_choir",
+      "attack": "soft_drone",
+      "texture": "warm_harmonic",
+      "spatial": "distant_hall",
+      "frequency": "rich_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_filtered_choir_subtle_001.mp3",
+    "output_path": "sfx_library/news/news_filtered_choir_subtle_001.mp3",
+    "council_scores": {
+      "sfx-ear": 10,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Exceptionally specific — soft filtered vocal choir drone with 2kHz rolloff is maximally clear",
+      "sfx-director": "Vocal choir drone with explicit 2kHz rolloff shows production thinking — exactly right",
+      "sfx-librarian": "Filtered vocal choir drone is novel source; distant hall and rolloff differentiate from ambient entries"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_analog_synth_warm_001",
+    "prompt": "Warm vintage analog synth pad with soft saturation texture, slow evolving harmonic pattern, centered stereo with subtle width, gentle mid-low pulse with space for voice, loopable 30-second track, 95 BPM in E minor, used as a modern under-voice news bed for tech or business segments.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "analog_synth",
+      "attack": "slow_evolving",
+      "texture": "soft_saturation",
+      "spatial": "centered_stereo",
+      "frequency": "sweep_low"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_analog_synth_warm_001.mp3",
+    "output_path": "sfx_library/news/news_analog_synth_warm_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 4
+    },
+    "council_notes": {
+      "sfx-ear": "Vintage analog synth pad with precise spatial and textural descriptors — excellent coherence",
+      "sfx-director": "Explicitly engineered space for voice; warm synth with soft saturation sits cleanly under speech",
+      "sfx-librarian": "Force-approved at cap — vintage analog saturation texture differs from clean synth_pulse steady"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_woodwind_quartet_warm_001",
+    "prompt": "Soft woodwind quartet entrance with warm blended tones, chamber room perspective, gentle mid-range melodic lines, loopable 30-second track, 82 BPM in F major, used as a warm under-voice news bed for feature reporting.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "woodwind_quartet",
+      "attack": "soft_entrance",
+      "texture": "warm_blend",
+      "spatial": "chamber_room",
+      "frequency": "mellow_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_woodwind_quartet_warm_001.mp3",
+    "output_path": "sfx_library/news/news_woodwind_quartet_warm_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Woodwind quartet with chamber room and gentle mid-range — solid source and acoustics",
+      "sfx-director": "Woodwind quartet is a broadcast staple for warm feature reporting — immediately useful",
+      "sfx-librarian": "Woodwind quartet entirely absent from both catalogs — warm blended tones distinct niche"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T16:12:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
   }
 ]

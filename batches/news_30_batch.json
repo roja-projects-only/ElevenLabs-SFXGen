@@ -1,0 +1,305 @@
+{
+  "tier": "free",
+  "items": [
+    {
+      "text": "Short urgent brass stab with biting attack, tight dampened decay with no hall tail, dry close mic, mid-low punch, one-shot, 100 BPM in F minor, used as a breaking news radio stinger for major announcements.",
+      "category": "news",
+      "descriptor": "brass_hit",
+      "mood": "biting",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Single tight timpani hit with percussive boom, dry studio damping with fast cutoff, sub-low resonance with no tail, one-shot, under 1 second, used as a dramatic news radio stinger for urgent bulletins.",
+      "category": "news",
+      "descriptor": "timpani",
+      "mood": "percussive",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Urgent mechanical bell ring with percussive metallic tone, pulsed staccato pattern, tight mono delivery, immediate cut, one-shot, used as a breaking news alert radio stinger for urgent bulletins.",
+      "category": "news",
+      "descriptor": "mechanical_bell",
+      "mood": "urgent",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Heavy synth impact crash with layered metallic body, tight dry room, low-mid weight with immediate cutoff, one-shot, used as a modern news radio stinger for breaking developments.",
+      "category": "news",
+      "descriptor": "synth_impact",
+      "mood": "metallic",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Deep bowed metal sheet scrape with low grating resonance, close studio perspective with dampened cutoff, dark metallic texture, one-shot, used as a tension news radio stinger for critical updates.",
+      "category": "news",
+      "descriptor": "bowed_metal",
+      "mood": "dark",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Staccato rotary telephone dial pulse with mechanical clicking tone, rhythmic progressive pattern, tight mono with immediate cutoff, one-shot, used as a news radio stinger for developing stories.",
+      "category": "news",
+      "descriptor": "telephone_dial",
+      "mood": "mechanical",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Deep subsonic rumble throb with sustained low-frequency vibration, centered mono image, felt rather than heard, immediate cut, one-shot, under 1 second, used as an ominous news radio stinger for developing stories.",
+      "category": "news",
+      "descriptor": "sub_rumble",
+      "mood": "ominous",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Tight staccato choir hit with percussive vocal burst, dry studio close mic, mid-range harmonic impact with instant cutoff, one-shot, used as a dramatic news radio stinger for major developments.",
+      "category": "news",
+      "descriptor": "choir_stab",
+      "mood": "dramatic",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Building snare drum roll with percussive crescendo and rattling wire, live room ambience, mid-range rhythmic tension culminating in a final hit, one-shot, under 2 seconds, used as a dramatic news stinger for military or state occasions.",
+      "category": "news",
+      "descriptor": "snare_roll",
+      "mood": "building",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Deep pipe organ low chord stab with dark harmonic body, dry damping with fast cutoff, resonant low-mid weight, one-shot, 85 BPM in C minor, used as a solemn news radio stinger for tragic developments.",
+      "category": "news",
+      "descriptor": "pipe_organ_stab",
+      "mood": "solemn",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Harsh cello bow scrape with low growling texture, close intimate microphone perspective, dark low-mid resonance with fast dampened decay, one-shot, used as an investigative news radio stinger for serious exposés.",
+      "category": "news",
+      "descriptor": "cello_scrape",
+      "mood": "harsh",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Solemn French horn single note with warm mid tone, short hall bloom with tight cutoff, dignified resonant peak under 1.5 seconds, one-shot, 80 BPM in A minor, used as a ceremonial news radio stinger for memorial or state occasions.",
+      "category": "news",
+      "descriptor": "french_horn",
+      "mood": "solemn",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Quick magnetic tape splice pop with warm analog transient, subtle mid-frequency click, slight pre-echo characteristic, close perspective with tight cutoff, one-shot, used as a retro news radio stinger.",
+      "category": "news",
+      "descriptor": "tape_splice",
+      "mood": "retro",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Single glass bottle break with controlled mid-high shatter, close room perspective, single decisive impact with fast sharp decay under 1 second, one-shot, used as a dramatic news stinger for accident reports.",
+      "category": "news",
+      "descriptor": "glass_bottle",
+      "mood": "shatter",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Sharp percussive vocal grunt with urgent breathy attack, tight room acoustic, mid-frequency exhalation with immediate cutoff, one-shot, used as an intense breaking news stinger for live event coverage.",
+      "category": "news",
+      "descriptor": "vocal_grunt",
+      "mood": "intense",
+      "prompt_influence": 0.7,
+      "duration_seconds": null,
+      "loop": false,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Soft bassoon drone with gentle warm reed tone, close room perspective, steady sustained bed with subtle harmonic movement, loopable 30-second track, 72 BPM in D minor, used as a calm under-voice news bed for feature reports and human-interest stories.",
+      "category": "news",
+      "descriptor": "bassoon_drone",
+      "mood": "gentle",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Soft orchestral string pizzicato with light plucked articulation, gentle mid-range melodic pattern, studio dry acoustic, sparse texture leaving voice space, loopable 30-second track, 92 BPM in G major, used as a light under-voice news bed for cultural features.",
+      "category": "news",
+      "descriptor": "string_pizzicato",
+      "mood": "light",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Soft mallet percussion with light rhythmic pattern on wooden bars, dry studio acoustic with precise stereo image, unobtrusive pulse, loopable 30-second track, 100 BPM in C major, used as a light under-voice news bed for business updates.",
+      "category": "news",
+      "descriptor": "mallet_percussion",
+      "mood": "light",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Smooth upright bass walking pulse with warm low thump, close warm studio perspective, steady groove with space for voice, loopable 30-second track, 85 BPM in D minor, used as a jazz-influenced under-voice news bed for late-night analysis.",
+      "category": "news",
+      "descriptor": "upright_bass",
+      "mood": "smooth",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Warm electric piano sustained chords with soft bell-like tone, close studio perspective, gentle harmonic movement with space for voice, loopable 30-second track, 85 BPM in E minor, used as a thoughtful under-voice news bed for investigative journalism.",
+      "category": "news",
+      "descriptor": "electric_piano",
+      "mood": "warm",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Mellow vibraphone mallet pattern with resonant metallic bars, natural room acoustic, clear mid-frequency melodic phrases, loopable 30-second track, 92 BPM in A minor, used as a thoughtful under-voice news bed for analysis segments.",
+      "category": "news",
+      "descriptor": "vibraphone",
+      "mood": "mellow",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Warm brass ensemble pads with broad sustained chords, wide hall stereo spread, rich mid-range harmonic texture leaving space for voice, loopable 30-second track, 78 BPM in C minor, used as a dignified under-voice news bed for state occasions.",
+      "category": "news",
+      "descriptor": "brass_ensemble",
+      "mood": "dignified",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Slowly morphing glass harmonica texture with warm evolving tones, close atmospheric perspective with soft body, gentle mid-range movement with dark warmth, loopable 30-second track, 68 BPM in E minor, used as an atmospheric under-voice news bed for reflective features.",
+      "category": "news",
+      "descriptor": "glass_harmonica",
+      "mood": "atmospheric",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Flowing harp arpeggios with warm mid-register tones, soft room acoustic with gentle ambience, delicate movement leaving voice space, loopable 30-second track, 88 BPM in G major, used as a light under-voice news bed for arts and culture segments.",
+      "category": "news",
+      "descriptor": "harp",
+      "mood": "flowing",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Slow legato viola ensemble with dark warm harmony, close studio perspective, bowed mid-range resonance with soft texture, loopable 30-second track, 76 BPM in F minor, used as a somber under-voice news bed for serious documentaries.",
+      "category": "news",
+      "descriptor": "viola_ensemble",
+      "mood": "somber",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Soft chamber organ pad with gentle warm tonality, close room perspective, calm sustained texture with subtle harmonic shift, loopable 30-second track, 80 BPM in A major, used as a gentle under-voice news bed for sports or positive stories.",
+      "category": "news",
+      "descriptor": "chamber_organ",
+      "mood": "gentle",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Delicate wind chime tinkle with metallic sparkle, outdoor spacious perspective, high bell-like shimmer, loopable 30-second track, 65 BPM in A major, used as a peaceful under-voice news bed for weather or nature features.",
+      "category": "news",
+      "descriptor": "wind_chime",
+      "mood": "peaceful",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Soft filtered vocal choir drone with warm low-mid resonance, distant hall perspective, gentle harmonic wash rolling off above 2kHz for voice clearance, loopable 30-second track, 76 BPM in D minor, used as a subtle under-voice news bed for human-interest features.",
+      "category": "news",
+      "descriptor": "filtered_choir",
+      "mood": "subtle",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Warm vintage analog synth pad with soft saturation texture, slow evolving harmonic pattern, centered stereo with subtle width, gentle mid-low pulse with space for voice, loopable 30-second track, 95 BPM in E minor, used as a modern under-voice news bed for tech or business segments.",
+      "category": "news",
+      "descriptor": "analog_synth",
+      "mood": "warm",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    },
+    {
+      "text": "Soft woodwind quartet entrance with warm blended tones, chamber room perspective, gentle mid-range melodic lines, loopable 30-second track, 82 BPM in F major, used as a warm under-voice news bed for feature reporting.",
+      "category": "news",
+      "descriptor": "woodwind_quartet",
+      "mood": "warm",
+      "prompt_influence": 0.5,
+      "duration_seconds": 30,
+      "loop": true,
+      "output_format": "mp3_44100_128"
+    }
+  ]
+}
