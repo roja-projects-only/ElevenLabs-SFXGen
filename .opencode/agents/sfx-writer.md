@@ -20,7 +20,7 @@ Before doing anything, load:
 
 **Do NOT read these unless specifically needed:**
 - `docs/product-foundation.md` — only if AGENTS.md lacks a detail you need (e.g., the full log schema example).
-- `docs/sfx-standard-context.md` — grep it for the target category keyword (e.g., "stinger", "laser") and read only the matching section + the category's usage notes. Never load the full 100+ entry table.
+- `docs/sfx-standard-context.md` — grep it for the target category keyword (e.g., "stinger", "laser") and read only the matching section + the category's usage notes. Never load the full 100+ entry table. For `background_music`, also grep "bed"/"music bed" — the doc predates the rename and still uses that broadcast-industry term for this content.
 - `.agents/skills/sound-effects/SKILL.md` — only when authoring or debugging `scripts/generate.py`. The API parameter table is already in AGENTS.md/product-foundation.md.
 - Script source files (`scripts/generate.py`, `scripts/organizer.py`, `scripts/sfx_studio/*.py`) — only when a script fails or you need a flag not in the command spec. Trust the CLI flags documented in the command template.
 
@@ -52,7 +52,7 @@ When the user runs `/sfx-generate [category] [quantity]` (or `/sfx-batch`):
 
    **Per-category checks** (verify against the table below):
    - Duration matches the category spec (e.g., stinger ≤2s, ambience 30s loop).
-   - Envelope/texture fits the category role (e.g., stinger must punch-and-cut, not linger; bed must loop without fatigue).
+   - Envelope/texture fits the category role (e.g., stinger must punch-and-cut, not linger; background_music must loop without fatigue).
    - `prompt_influence`, `loop`, `duration_seconds` match the category defaults.
 
 4. **Convene the council.** Delegate each prompt to all three critics for independent scoring. See **Council Dispatch Strategy** below.
@@ -73,7 +73,7 @@ The scripts are authored and live under `scripts/`. They are thin CLIs over the 
 --category CATEGORY       (required) one of the 8 categories
 --prompt-influence FLOAT  optional, omit for SDK default (0.3)
 --duration FLOAT          optional, omit for auto-duration (cheaper)
---loop                    flag, set for beds/ambience (MP3 only)
+--loop                    flag, set for background_music/ambience (MP3 only)
 --output-format STR       default mp3_44100_128
 --model-id STR            optional, omit for SDK default
 --tier STR                default free (free=2, starter=3, creator=5, pro=10)
@@ -181,11 +181,11 @@ Collect all scores before deciding. Show the full debate in the TUI.
 - **Hard cap: 1,000 characters** per prompt. Count before submitting; never exceed.
 - Use audio-production terminology the model understands: `braam`, `whoosh`, `drone`, `glitch`, `impact`, `one-shot`, `ambience`, `loop`, `riser`, `stem`, `bed`, `stinger`, `sweeper`.
 - Describe sequences explicitly: `"Sound A, then Sound B"`. Never stack simultaneous conflicting characteristics.
-- Include **BPM and key** for musical elements (stingers, beds, jingles, news beds): e.g. `"90 BPM, F minor"`. News and emergency beds lean minor key for seriousness.
+- Include **BPM and key** for musical elements (stingers, background_music, jingles, news beds): e.g. `"90 BPM, F minor"`. News and emergency beds lean minor key for seriousness.
 - Avoid copyrighted, branded, or recognizable sounds (specific ringtones, TV themes, real station IDs). Prefer generic, royalty-free descriptions — see *Step 7* of `docs/sfx-standard-context.md`.
-- **`prompt_influence`**: `0.3` for creative/atmospheric work where variation is good (ambience, beds); `0.7–0.9` for tightly specified prompts where variation is undesirable (precise stingers, foley hits).
+- **`prompt_influence`**: `0.3` for creative/atmospheric work where variation is good (ambience, background_music); `0.7–0.9` for tightly specified prompts where variation is undesirable (precise stingers, foley hits).
 - **Duration**: prefer auto (`duration_seconds: null`) — it is cheaper (100 chars flat) and usually more accurate. Only set a fixed duration when length is a hard requirement (then cost is 25 chars/second).
-- **Looping**: set `loop: true` and `duration_seconds: 30` for beds and ambience so they repeat seamlessly. Loop requires MP3 output.
+- **Looping**: set `loop: true` and `duration_seconds: 30` for background_music and ambience so they repeat seamlessly. Loop requires MP3 output.
 - **`output_format`**: `mp3_44100_128` for broadcast (and required for loop).
 
 ## Per-Category Generation Spec
@@ -197,7 +197,7 @@ Derived from `docs/sfx-standard-context.md` broadcast standards. Use as defaults
 | `ambience` | Continuous environmental bed under voice | 30s loop | `true` | `30` | `0.3` |
 | `stinger` | Very short, high-impact punctuation | 0.5–2s | `false` | `null` | `0.7–0.9` |
 | `transition` | Whoosh/sweep moving between segments | 0.5–2s (sweepers up to ~10s) | `false` | `null` | `0.5–0.7` |
-| `bed` | Instrumental track under speech | 20–30s loop | `true` | `30` | `0.3–0.5` |
+| `background_music` | General-purpose instrumental/ambient track — under speech or standalone (segment underscore, show intros/outros, listening backdrop) | 20–30s loop | `true` | `30` | `0.3–0.5` |
 | `foley` | Discrete real-world event timed to action | 0.3–3s | `false` | `null` | `0.6–0.8` |
 | `jingle` | Short sung/musical station ID | 5–10s | `false` | `null` or fixed | `0.5–0.7` |
 | `news` | Urgent stinger **or** news bed (decide by request) | stinger 1–2s / bed 15–60s | bed: `true` | stinger `null`, bed `30` | `0.5–0.8` |
@@ -273,7 +273,7 @@ After each successful generation, append **one** object to the `logs/generation_
 
 ## Categories
 
-`ambience`, `stinger`, `transition`, `bed`, `foley`, `jingle`, `news`, `misc`
+`ambience`, `stinger`, `transition`, `background_music`, `foley`, `jingle`, `news`, `misc`
 
 ## Todo Discipline
 

@@ -1,1 +1,2017 @@
-﻿[]
+[
+  {
+    "id": "stinger_electronic_explosive_001",
+    "prompt": "Powerful electronic synth stab with explosive attack, deep sub-bass rumble, and a wide stereo metallic top-end shimmer, one-shot, 90 BPM, in G minor, with a clean short reverb tail that decays in under 2 seconds, used as an impactful radio imaging stinger.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "electronic_synth",
+      "attack": "explosive",
+      "texture": "layered_sub_bass",
+      "spatial": "wide_stereo_short_tail",
+      "frequency": "low_end_bright_top"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_electronic_explosive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_electronic_explosive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustically specific and renderable\u2014synth stab with defined frequency layers, clear attack/tail, BPM/key, and reverb spec",
+      "sfx-director": "Solid imaging stinger\u2014sub-bass+metallic shimmer gives punchy modern radio hit; bright top-end skews toward CHR/pop slightly",
+      "sfx-librarian": "Library is empty\u2014first sound effect in the entire SFX pool, fully unique"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:26:46Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_brass_dramatic_001",
+    "prompt": "Short cinematic brass hit with sharp attack, three-note brass stab in C minor with tight harmonic cluster, resonant hall decay tail, one-shot, 110 BPM, used as an impactful news or dramatic radio stinger.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "brass",
+      "attack": "sharp",
+      "texture": "resonant",
+      "spatial": "hall_reverb",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_brass_dramatic_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_brass_dramatic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Solid prompt with concrete brass source, specific key/cluster, hall reverb tail",
+      "sfx-director": "On-brief for news/dramatic stinger but hall decay tail risks pushing past 2s window",
+      "sfx-librarian": "Zero major sonic angles shared with existing stinger - brass vs synth, sharp vs explosive"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:30:49Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_orchestral_explosive_001",
+    "prompt": "Tight cinematic braam hit with explosive low-end impact, short timpani thump and a quick string accent, sharp cutoff with no reverb tail, one-shot, in D minor, used as a dramatic radio imaging stinger for major announcements, under 2 seconds.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "orchestral",
+      "attack": "explosive",
+      "texture": "deep_rolling",
+      "spatial": "wide_long_tail",
+      "frequency": "sub_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_orchestral_explosive_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_orchestral_explosive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustically specific and renderable - minor redundancy braam/impact",
+      "sfx-director": "Now meets stinger spec cleanly - sharp cutoff, under 2s, usable major-announcement hit (revised from 4)",
+      "sfx-librarian": "Orchestral braam fundamentally different from existing electronic synth stab"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T02:30:49Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_digital_glitchy_001",
+    "prompt": "Short digital glitch stinger with staccato stutter effect, clean high-frequency clicks and cuts, fragmented rhythmic pattern, tight and dry with no reverb, one-shot, 128 BPM, used as a modern radio transition stinger for tech or sports segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "digital",
+      "attack": "staccato",
+      "texture": "fragmented",
+      "spatial": "tight_dry",
+      "frequency": "high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_digital_glitchy_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_digital_glitchy_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustically specific with good audio terminology",
+      "sfx-director": "Tight, dry, one-shot fits stinger slot perfectly - useful for tech/sports transitions",
+      "sfx-librarian": "Diverges on every sonic angle from existing - digital vs synth, staccato vs explosive"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:30:49Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_synth_rising_001",
+    "prompt": "Ascending synth riser sweep building from low rumble to bright top, swelling layered synths with expanding stereo width, ending in a brief resonant peak, one-shot, in E minor, 100 BPM, used as an anticipatory radio stinger before a reveal or segment transition.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "layered_synths",
+      "attack": "gradual",
+      "texture": "swelling",
+      "spatial": "expanding",
+      "frequency": "low_to_high_sweep"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_synth_rising_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_synth_rising_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Solid acoustic specificity - riser sweep, low-to-bright arc, stereo expansion, key/BPM",
+      "sfx-director": "Anticipatory riser is valid radio use, but swelling peak risks not cutting through like a stinger",
+      "sfx-librarian": "Fundamentally different from existing - ascending sweep vs explosive stab, every angle opposite"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:30:49Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_8bit_synth_playful_001",
+    "prompt": "Short retro arcade laser blast with bright square-wave synth tone, immediate attack and clean cutoff, no reverb, crisp and dry, one-shot, 120 BPM, used as a playful video-game-style radio stinger for youth segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "8bit_synth",
+      "attack": "immediate",
+      "texture": "crisp_square_wave",
+      "spatial": "tight_clean",
+      "frequency": "mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_8bit_synth_playful_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_8bit_synth_playful_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent acoustic specificity \u2014 clear envelope, timbre, and processing targets",
+      "sfx-director": "Solid stinger for youth/gaming segments \u2014 bright, dry, immediate attack",
+      "sfx-librarian": "Genuinely novel in the stinger pool \u2014 retro arcade territory unfilled"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:37:04Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_plasma_wobble_dramatic_001",
+    "prompt": "Sharp plasma discharge stinger with fast wobbling attack and immediate cutoff, bright buzzing electrical texture, short tight reverb tail, one-shot, used as a sci-fi radio imaging stinger for dramatic transitions.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "plasma_wobble",
+      "attack": "fast_wobbling",
+      "texture": "buzzing",
+      "spatial": "tight_reverb",
+      "frequency": "low_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_plasma_wobble_dramatic_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_plasma_wobble_dramatic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Uses solid audio terminology with concrete source and clear acoustic descriptors",
+      "sfx-director": "Solid sci-fi imaging stinger \u2014 fast attack, immediate cutoff, short tail hits stinger spec",
+      "sfx-librarian": "Distinctly novel \u2014 no existing entry combines plasma source, wobbling attack, buzzing texture"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T02:37:18Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_electronic_zap_bright_001",
+    "prompt": "Bright electronic zap stinger, quick attack with clean pitched synth tone, wide stereo reverb tail with warm resonant body, one-shot, used as a versatile modern radio imaging stinger for show transitions.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "synthesized_zap",
+      "attack": "quick",
+      "texture": "resonant_warm",
+      "spatial": "wide_stereo_reverb",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_electronic_zap_bright_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_electronic_zap_bright_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Physically achievable with solid terminology, minor tonal tension acceptable",
+      "sfx-director": "Right energy for stinger, tight duration needed to avoid lingering tail",
+      "sfx-librarian": "Successfully differentiated from #4 \u2014 wide reverb and warm body diverge from digital tight dry"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T02:37:32Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_industrial_spark_edgy_001",
+    "prompt": "Short industrial spark hit stinger, sharp metallic percussive cut with bright spark transient, tight dry tail under one second, one-shot, close perspective, used as an edgy radio imaging stinger for tech or rock segments.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "mechanical_spark",
+      "attack": "sharp",
+      "texture": "percussive_transient",
+      "spatial": "close_dry",
+      "frequency": "bright_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_industrial_spark_edgy_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_industrial_spark_edgy_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Physically achievable, acoustically specific, correct terminology",
+      "sfx-director": "Solid imaging stinger \u2014 sharp attack, sub-1s tail fits stinger window perfectly",
+      "sfx-librarian": "Industrial metallic spark texture is distinct \u2014 unique in pool despite some shared axes"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T02:37:45Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "stinger_laser_ping_precise_001",
+    "prompt": "Sharp targeting laser ping stinger, resonant mid-frequency metallic tone with clean attack and immediate decay, no sub-bass, tight dry, one-shot, used as a precision radio imaging stinger for news bulletins and transitions.",
+    "category": "stinger",
+    "sonic_angles": {
+      "instrumentation": "resonant_pulse",
+      "attack": "clean_fast",
+      "texture": "metallic_ring",
+      "spatial": "tight_dry",
+      "frequency": "mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "stinger_laser_ping_precise_001.mp3",
+    "output_path": "sfx_library/stingers/stinger_laser_ping_precise_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustically specific with concrete source, texture, envelope \u2014 no conflicts",
+      "sfx-director": "Tight production-ready stinger \u2014 clean attack, immediate decay, no voice clash",
+      "sfx-librarian": "Successfully diverged from #1 \u2014 no sub-bass, tight dry vs wide, metallic vs synth"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-06-24T02:38:00Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_percussion_strike_urgent_001",
+    "prompt": "Striking electronic news stinger with percussive mid-bass thump, tight and dry with immediate cutoff, one-shot, 90 BPM in C minor, used as a breaking news radio stinger for urgent bulletins and headline updates.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "electronic_percussion",
+      "attack": "striking",
+      "texture": "percussive_thump",
+      "spatial": "tight_dry",
+      "frequency": "mid_bass"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "news_percussion_strike_urgent_001.mp3",
+    "output_path": "sfx_library/news/news_percussion_strike_urgent_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustically specific with clear audio terminology",
+      "sfx-director": "Solid news stinger with right sonic palette for bulletins",
+      "sfx-librarian": "News category empty \u2014 distinct from existing stingers"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:47:42Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_alert_beep_alert_001",
+    "prompt": "Short news alert beep stinger with clean synthesized high-frequency tone, percussive attack with wide stereo spread, immediate decay with no reverb, one-shot, used as a radio news alert stinger for updates and announcements.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "synth_alert",
+      "attack": "percussive_beep",
+      "texture": "clean_tone",
+      "spatial": "wide_stereo",
+      "frequency": "high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "news_alert_beep_alert_001.mp3",
+    "output_path": "sfx_library/news/news_alert_beep_alert_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Physically achievable synthesized beep with clear acoustic descriptors",
+      "sfx-director": "Core stinger spec correct \u2014 news alert function is valid",
+      "sfx-librarian": "Distinct news-alert fingerprint \u2014 clean beep/percussive/no-reverb not in pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:47:56Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_teletype_urgent_001",
+    "prompt": "Short teletype machine stinger with ratcheting mechanical clatter and metallic type-bar impacts, roomy acoustic space, rhythmic key strikes, one-shot, used as a retro news wire radio stinger for bulletin openings.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "teletype_machine",
+      "attack": "ratcheting",
+      "texture": "mechanical_clatter",
+      "spatial": "roomy",
+      "frequency": "mid_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "news_teletype_urgent_001.mp3",
+    "output_path": "sfx_library/news/news_teletype_urgent_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Concrete source, textured descriptors, physically achievable",
+      "sfx-director": "Authentic teletype stinger \u2014 recognized news radio convention",
+      "sfx-librarian": "Mechanical teletype entirely novel \u2014 no overlap with any stinger"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:48:11Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_bass_pulse_urgent_001",
+    "prompt": "Urgent synth bass pulse stinger with pounding heartbeat rhythm, close-mic presence, tight decay, one-shot, 100 BPM in D minor, used as an urgent news radio stinger for breaking and developing stories.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "synth_bass_pulse",
+      "attack": "pounding",
+      "texture": "rhythmic_pulse",
+      "spatial": "close_mic",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "news_bass_pulse_urgent_001.mp3",
+    "output_path": "sfx_library/news/news_bass_pulse_urgent_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity \u2014 synth bass, heartbeat, BPM/key all renderable",
+      "sfx-director": "Right key and decay \u2014 heartbeat adds drama for developing stories",
+      "sfx-librarian": "News category empty \u2014 distinct from synth stinger #1"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:48:26Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_strings_climax_dramatic_001",
+    "prompt": "Tension-building orchestral string stinger with climbing dissonant swell, cinematic depth, rising to a mid-high crescendo with a sharp cutoff, one-shot, used as a dramatic news radio stinger for major developments and critical updates.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "orchestral_strings",
+      "attack": "tension_climb",
+      "texture": "dissonant_swell",
+      "spatial": "cinematic_depth",
+      "frequency": "mid_high_crescendo"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.8,
+    "output_filename": "news_strings_climax_dramatic_001.mp3",
+    "output_path": "sfx_library/news/news_strings_climax_dramatic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustically specific, physically achievable orchestral crescendo",
+      "sfx-director": "Solid dramatic news concept \u2014 appropriate tension for major developments",
+      "sfx-librarian": "Orchestral dissonant climb distinct from braam and synth riser"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:48:40Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "news_synth_pulse_steady_001",
+    "prompt": "Steady news bed with warm low-mid synth pulse, restrained percussion, controlled stereo mix leaving headroom for voice, 30-second loop, 85 BPM in E minor, used as a supportive under-voice news bed for breaking coverage and live updates.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "synth_pulse",
+      "attack": "steady",
+      "texture": "restrained",
+      "spatial": "controlled_stereo",
+      "frequency": "low_mid_warm"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_synth_pulse_steady_001.mp3",
+    "output_path": "sfx_library/news/news_synth_pulse_steady_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Core elements concrete and renderable \u2014 warm synth, restrained percussion, BPM/key",
+      "sfx-director": "Solid 30s loop bed \u2014 restrained, leaves vocal range clear, broadcast-ready",
+      "sfx-librarian": "First loopable bed in library \u2014 fundamentally different from all short stingers"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T02:49:02Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_piano_legato_gentle_001",
+    "prompt": "Gentle piano news bed with soft melodic legato flow, warm mid-range tones, close room acoustic, loopable 30-second instrumental track, 80 BPM in A minor, used as a calm under-voice news bed for feature reports and human-interest stories.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "acoustic_piano",
+      "attack": "gentle_flow",
+      "texture": "melodic_legato",
+      "spatial": "close_room",
+      "frequency": "warm_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_piano_legato_gentle_001.mp3",
+    "output_path": "sfx_library/news/news_piano_legato_gentle_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity \u2014 piano, legato, BPM/key, duration, loopable",
+      "sfx-director": "Solid 30s bed for features \u2014 warm mid-range leaves voice space",
+      "sfx-librarian": "Loopable piano bed entirely novel \u2014 no overlap with short hits"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:49:23Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_dark_synth_atmospheric_001",
+    "prompt": "Dark ambient synth pad news bed with slow atmospheric infusion, deep sub-bass hum, wide stereo field with spacious depth, loopable 30-second track, 70 BPM in F minor, used as an atmospheric under-voice news bed for investigative journalism and serious documentaries.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "ambient_synth",
+      "attack": "slow_infusion",
+      "texture": "ambient_hum",
+      "spatial": "deep_wide",
+      "frequency": "sub_low"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_dark_synth_atmospheric_001.mp3",
+    "output_path": "sfx_library/news/news_dark_synth_atmospheric_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 7,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Core elements concrete and renderable \u2014 synth pad, sub-bass, BPM/key",
+      "sfx-director": "Solid 30s bed for investigative programming \u2014 serious F minor tone",
+      "sfx-librarian": "Ambient synth bed entirely novel \u2014 no overlap with short stingers"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:49:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_arpeggio_bright_001",
+    "prompt": "Bright financial news bed with digital arpeggio pattern, clean staccato synth sequence, precise stereo separation, steady rhythmic pulse, loopable 30-second track, 120 BPM in C major, used as an energetic under-voice news bed for market reports and business updates.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "digital_arpeggio",
+      "attack": "rhythmic_steady",
+      "texture": "clean_staccato",
+      "spatial": "precise_stereo",
+      "frequency": "bright_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_arpeggio_bright_001.mp3",
+    "output_path": "sfx_library/news/news_arpeggio_bright_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity \u2014 arpeggio, staccato, BPM/key, loopable",
+      "sfx-director": "Solid financial news bed \u2014 bright but leaves headroom for voice",
+      "sfx-librarian": "Digital arpeggio bed novel in format \u2014 distinct from short hits"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T02:49:47Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "news_synth_pad_sports_airy_001",
+    "prompt": "Moderate sports news bed with sustained synth pad, flowing rhythmic pulse, subtle bass movement, airy live ambience with space for voice, loopable 30-second track, 120 BPM in G major, used as an under-voice news bed for sports reports and game highlights.",
+    "category": "news",
+    "sonic_angles": {
+      "instrumentation": "sustained_synth",
+      "attack": "flowing",
+      "texture": "rhythmic_pad",
+      "spatial": "airy_live",
+      "frequency": "mid_bright"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.5,
+    "output_filename": "news_synth_pad_sports_airy_001.mp3",
+    "output_path": "sfx_library/news/news_synth_pad_sports_airy_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "All elements complementary and acoustically grounded \u2014 BPM/key/loop/duration present",
+      "sfx-director": "Corrected from 3 \u2014 sustained pad, subtle, airy, space for voice now bed-safe",
+      "sfx-librarian": "Sports news bed fundamentally different from all short stingers"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T02:50:08Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "transition_synth_whoosh_broadband_001",
+    "prompt": "Smooth broadband synth whoosh with fast attack and clean mid-range swoop, wide stereo spread, slight downward pitch bend, used as a clean radio transition between segments, under 2 seconds.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "synth",
+      "attack": "fast",
+      "texture": "smooth",
+      "spatial": "wide_stereo",
+      "frequency": "full_range"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_synth_whoosh_broadband_001.mp3",
+    "output_path": "sfx_library/transitions/transition_synth_whoosh_broadband_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity with concrete terms",
+      "sfx-director": "Textbook radio whoosh",
+      "sfx-librarian": "Novel sonic arc - downward bend distinct from existing risers"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_string_chop_marcato_001",
+    "prompt": "Orchestral marcato string chop: descending two-note stab from cello and viola section, dry attack with tight hall resonance, falling pitch gesture with immediate cutoff, in D minor, 100 BPM, used as a decisive closing transition to end a segment.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "orchestral_strings",
+      "attack": "marcato_chop",
+      "texture": "descending_dry",
+      "spatial": "hall_tight",
+      "frequency": "mid_low_descending"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_string_chop_marcato_001.mp3",
+    "output_path": "sfx_library/transitions/transition_string_chop_marcato_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Highly specific orchestral prompt",
+      "sfx-director": "Broadcast classic for decisive segment closes",
+      "sfx-librarian": "Marcato chop distinct from explosive braam"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_granular_cloud_shimmering_001",
+    "prompt": "Rising granular synth transition: digital grain cloud building from noise floor to dense shimmering texture, mid-range cluster with spectral smear, wide stereo with slight upward pitch rise, used as a contemporary radio transition for arts or experimental segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "granular_synth",
+      "attack": "rising_grain",
+      "texture": "dense_shimmer",
+      "spatial": "wide_stereo",
+      "frequency": "mid_smeared"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_granular_cloud_shimmering_001.mp3",
+    "output_path": "sfx_library/transitions/transition_granular_cloud_shimmering_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Solid electronic sound design",
+      "sfx-director": "Rising granular gesture suits arts niche",
+      "sfx-librarian": "Granular synthesis entirely novel in library"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_tape_stop_deceleration_001",
+    "prompt": "Cinematic tape-stop transition: rapid deceleration effect like a tape machine powering down, pitch dropping from normal speed to slow warble, mid-frequency warmth with slight wow and flutter, tight tail under 1 second, used as a retro dramatic transition for vintage-flavored segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "tape_effect",
+      "attack": "deceleration",
+      "texture": "warbling_warm",
+      "spatial": "tight_analog",
+      "frequency": "mid_warm"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_tape_stop_deceleration_001.mp3",
+    "output_path": "sfx_library/transitions/transition_tape_stop_deceleration_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent specificity - concrete source behavior",
+      "sfx-director": "Recognized transitional device, fits spec",
+      "sfx-librarian": "Tape-stop wholly unique, nothing resembling it"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_fm_tuning_sweeping_001",
+    "prompt": "FM radio tuning sweep: rapid scan across radio frequencies with bursted static fragments, sudden clear tone flashing through the noise, mid-to-high pitch sweep, tight dry envelope, used as a radio-authentic transition for communications or broadcast-themed segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "fm_radio_tuning",
+      "attack": "scanning_burst",
+      "texture": "static_with_tone",
+      "spatial": "dry_tight",
+      "frequency": "mid_to_high_sweep"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_fm_tuning_sweeping_001.mp3",
+    "output_path": "sfx_library/transitions/transition_fm_tuning_sweeping_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Strong acoustic anchor with tight envelope",
+      "sfx-director": "Broadcast-meta clever for comms segments",
+      "sfx-librarian": "FM radio scanning entirely novel source"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_reverse_cymbal_shimmering_001",
+    "prompt": "Reverse cymbal swell: shimmering wash building from silence to crash peak, wide stereo field with deep reverb tail, high-mid metallic texture, ending abruptly at the crest, used as a dreamy cross-fade transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "cymbal",
+      "attack": "swelling",
+      "texture": "shimmering",
+      "spatial": "wide_reverb",
+      "frequency": "high_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_reverse_cymbal_shimmering_001.mp3",
+    "output_path": "sfx_library/transitions/transition_reverse_cymbal_shimmering_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Minor reverb/abrupt contradiction noted",
+      "sfx-director": "Reverse cymbal swell is radio classic for crossfades",
+      "sfx-librarian": "Reverse cymbal completely novel source and gesture"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_guitar_slide_smooth_001",
+    "prompt": "Electric guitar slide transition: smooth fret slide from fifth fret to twelfth fret on wound strings, warm mid-range tone with live room ambience, single clean sliding gesture, used as a relaxed music-segment transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "guitar_slide",
+      "attack": "sliding",
+      "texture": "smooth",
+      "spatial": "live_room",
+      "frequency": "mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_guitar_slide_smooth_001.mp3",
+    "output_path": "sfx_library/transitions/transition_guitar_slide_smooth_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Highly specific with fret positions and string type",
+      "sfx-director": "More music foley than segment transition, workable in music features",
+      "sfx-librarian": "Electric guitar slide entirely unrepresented source"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_vinyl_scratch_nostalgic_001",
+    "prompt": "Classic vinyl record scratch: abrupt stop with textured groove grain, close warm microphone perspective, subtle needle surface noise, short mid-low-frequency abrasion, used as a nostalgic retro transition cue.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "vinyl",
+      "attack": "abrupt_stop",
+      "texture": "textured_grain",
+      "spatial": "close_warm",
+      "frequency": "mid_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_vinyl_scratch_nostalgic_001.mp3",
+    "output_path": "sfx_library/transitions/transition_vinyl_scratch_nostalgic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 10
+    },
+    "council_notes": {
+      "sfx-ear": "Strong physical description, fully achievable",
+      "sfx-director": "Strong nostalgic cue, trim noise tail",
+      "sfx-librarian": "Vinyl record scratch wholly novel source"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_wind_blow_airy_001",
+    "prompt": "Flowing wind blow transition: airy full-frequency swoosh with wide open-field spatial movement, subtle stereo pan from left to right, used as a natural ambient transition for nature or documentary programming.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "wind",
+      "attack": "flowing",
+      "texture": "airy",
+      "spatial": "open_field",
+      "frequency": "full_wide"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_wind_blow_airy_001.mp3",
+    "output_path": "sfx_library/transitions/transition_wind_blow_airy_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Well-anchored with open-field spatial description",
+      "sfx-director": "Good for nature segments, define attack point",
+      "sfx-librarian": "Natural wind source fundamentally distinct"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_gear_shift_mechanical_001",
+    "prompt": "Mechanical gear shift lever clunking into place: metallic impact with dry staccato resonance, short mid-low metallic ping, close perspective, used as an industrial transition for automotive or engineering segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "mechanical",
+      "attack": "clunking",
+      "texture": "metallic",
+      "spatial": "dry_staccato",
+      "frequency": "mid_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_gear_shift_mechanical_001.mp3",
+    "output_path": "sfx_library/transitions/transition_gear_shift_mechanical_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Precise mechanical description with close perspective",
+      "sfx-director": "Clear transitional weight, broaden palette for general reuse",
+      "sfx-librarian": "Shares metallic/dry with industrial spark but gear-shift source distinct and passes"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_string_sforzando_tension_001",
+    "prompt": "Sudden orchestral string sforzando accent: sharp dissonant attack from full string section, mid-high bite with concert hall decay tail, one-shot dramatic punch with fast decay, used as a tension transition for drama cues.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "strings",
+      "attack": "sudden_sforzando",
+      "texture": "sharp_dissonant",
+      "spatial": "hall_decay",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_string_sforzando_tension_001.mp3",
+    "output_path": "sfx_library/transitions/transition_string_sforzando_tension_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Clear source and texture, minor decay tension noted",
+      "sfx-director": "Textbook transitional energy, punctual and directional",
+      "sfx-librarian": "Sforzando different envelope than brass stab or braam"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_sub_bass_countdown_staccato_001",
+    "prompt": "Gated sub-bass countdown: three staccato low-frequency hits with increasing tempo, resonant filter closing between each strike, mono-to-narrow spatial treatment, deadened silence at the end, under 2 seconds, used as a dramatic countdown transition for show segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "gated_sub_bass",
+      "attack": "staccato_sequence",
+      "texture": "punctuated_hits",
+      "spatial": "mono_to_narrow",
+      "frequency": "sub_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_sub_bass_countdown_staccato_001.mp3",
+    "output_path": "sfx_library/transitions/transition_sub_bass_countdown_staccato_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Clear sequence with concrete source and articulation",
+      "sfx-director": "Classic broadcast countdown device, under-2s fits spec",
+      "sfx-librarian": "Countdown structure genuinely distinct from existing risers"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_tribal_drum_roll_crescendo_001",
+    "prompt": "Rolling tribal drum crescendo: accelerating skin hits on djembe and conga, percussive mid-frequency build culminating in a final slamming accent, natural live stage ambience, used as an energetic transition for world music or sports segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "tribal_drums",
+      "attack": "rolling_crescendo",
+      "texture": "percussive",
+      "spatial": "live_stage",
+      "frequency": "mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_tribal_drum_roll_crescendo_001.mp3",
+    "output_path": "sfx_library/transitions/transition_tribal_drum_roll_crescendo_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Excellent acoustic specificity with source instruments",
+      "sfx-director": "Classic transitional architecture, momentum and release",
+      "sfx-librarian": "Tribal drum crescendo entirely novel"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_piano_glissando_elegant_001",
+    "prompt": "Fast piano glissando sweeping upward from middle C to high C, rippling bright mid-high tones with natural room resonance, single fluid hand gesture across the keyboard, used as an elegant classical transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "piano",
+      "attack": "fast_glissando",
+      "texture": "rippling",
+      "spatial": "room_natural",
+      "frequency": "mid_high_airy"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_piano_glissando_elegant_001.mp3",
+    "output_path": "sfx_library/transitions/transition_piano_glissando_elegant_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Pitch range, gesture, room character all concrete",
+      "sfx-director": "Instantly recognizable transition gesture",
+      "sfx-librarian": "Glissando sweep vs legato bed - different territory"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_filter_sweep_opening_001",
+    "prompt": "Resonant filter sweep on sustained synth pad: cutoff opening from closed muted tone to bright resonant peak, mid-band frequency emphasis with stereo auto-pan movement, used as a filtered transition building anticipation for a reveal.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "filtered_synth",
+      "attack": "sweep_open",
+      "texture": "resonant_peak",
+      "spatial": "stereo_swept",
+      "frequency": "mid_band"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_filter_sweep_opening_001.mp3",
+    "output_path": "sfx_library/transitions/transition_filter_sweep_opening_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Strong filter-sweep language with precise trajectory",
+      "sfx-director": "Quintessential reveal transition",
+      "sfx-librarian": "Filter angle acceptable divergence from synth riser"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_vocal_choir_swelling_001",
+    "prompt": "Wordless vocal choir swell: building from soft breathy murmur to full harmonic peak, airy cathedral-wide spatial bloom, mid-low to high frequency expansion, used as an uplifting inspirational transition for reflective segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "vocal_choir",
+      "attack": "swelling_crescendo",
+      "texture": "airy_harmonic",
+      "spatial": "cathedral_wide",
+      "frequency": "mid_low_to_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_vocal_choir_swelling_001.mp3",
+    "output_path": "sfx_library/transitions/transition_vocal_choir_swelling_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Good spatial and frequency arc",
+      "sfx-director": "Works for reflective if trimmed to defined peak-and-cut",
+      "sfx-librarian": "Wordless vocal choir entirely novel no existing entry uses voice"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_noise_burst_abrupt_001",
+    "prompt": "Abrupt white noise burst: sizzling full-band texture with immediate attack and instant cutoff, no tail or sustain, dry presentation, under 1 second, used as a clean signal-shift transition between radio segments.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "white_noise",
+      "attack": "burst_abrupt",
+      "texture": "sizzling",
+      "spatial": "dry_cut",
+      "frequency": "full_band"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_noise_burst_abrupt_001.mp3",
+    "output_path": "sfx_library/transitions/transition_noise_burst_abrupt_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Concise, dry, perfectly specified",
+      "sfx-director": "Utilitarian signal-shift, functional",
+      "sfx-librarian": "White noise full-band distinct from glitch clicks"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_brass_fall_warm_001",
+    "prompt": "Falling brass horn bend: single descending jazz-influenced note from F to C in the mid-low register, warm round tone with hall reverb tail, used as a sophisticated late-night segment transition, 80 BPM feel.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "brass_horn",
+      "attack": "falling_decay",
+      "texture": "warm_decay",
+      "spatial": "hall_tail",
+      "frequency": "mid_low_warm"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_brass_fall_warm_001.mp3",
+    "output_path": "sfx_library/transitions/transition_brass_fall_warm_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Precise pitch range, tone, BPM feel",
+      "sfx-director": "Sophisticated tone, tight tail needed",
+      "sfx-librarian": "Falling jazz bend distinct from sharp brass stab"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_gated_stutter_rhythmic_001",
+    "prompt": "Rhythmic gated synth stutter: chopped granular pattern of repeated mid-high bursts with gated amplitude modulation, tight compressed delivery, used as a modern electro transition for contemporary radio shows.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "gated_synth",
+      "attack": "rhythmic_stutter",
+      "texture": "chopped_granular",
+      "spatial": "tight_compressed",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_gated_stutter_rhythmic_001.mp3",
+    "output_path": "sfx_library/transitions/transition_gated_stutter_rhythmic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Solid granularity and gating language",
+      "sfx-director": "Modern but lacks directional travel, pass with note",
+      "sfx-librarian": "Gated modulation adds differentiation from digital glitch"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_hydraulic_impact_mechanical_001",
+    "prompt": "Massive hydraulic press impact: heavy mechanical thud with compressed air release, low-mid metallic resonance ring, close industrial spatial perspective, tight deadened cutoff, used as an industrial transition for engineering or heavy-content programming shifts.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "hydraulic_press",
+      "attack": "heavy_mechanical",
+      "texture": "metal_compressed",
+      "spatial": "close_industrial",
+      "frequency": "low_mid_metal"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_hydraulic_impact_mechanical_001.mp3",
+    "output_path": "sfx_library/transitions/transition_hydraulic_impact_mechanical_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Strong physical achievability with concrete industrial elements",
+      "sfx-director": "Strong one-shot for hard-content shifts",
+      "sfx-librarian": "Hydraulic press distinct from industrial spark with different attack and texture"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:20:14Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "background_music_organ_drone_urgent_001",
+    "prompt": "Urgent breaking news bed with deep subsonic pulse and layered organ drone, close-mic'd intimate texture with centered stereo placement, dark serious harmonic clusters, loopable 30-second track, 85 BPM in F# minor, used as an under-voice bed for urgent breaking news bulletins and major developments.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "organ_drone",
+      "attack": "deep_pulse",
+      "texture": "layered_drone",
+      "spatial": "centered_intimate",
+      "frequency": "low_mid_dark"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_organ_drone_urgent_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_organ_drone_urgent_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 5,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Organ drone with subsonic pulse is physically plausible and acoustically specific",
+      "sfx-director": "Force-approved: aggressive widening replaced with centered placement; core concept sound",
+      "sfx-librarian": "Organ drone with centered stereo is genuinely novel in the news bed pool"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_acoustic_guitar_gentle_001",
+    "prompt": "Warm neutral news bed with soft acoustic guitar fingerpicking pattern and gentle rhythmic pulse, natural room ambience with controlled stereo width, loopable 30-second instrumental track, 90 BPM in G major, used as a calm under-voice news bed for regular updates and morning headline segments.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "acoustic_guitar",
+      "attack": "fingerpicking",
+      "texture": "gentle_pulse",
+      "spatial": "natural_room",
+      "frequency": "warm_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_acoustic_guitar_gentle_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_acoustic_guitar_gentle_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Acoustic guitar fingerpicking with natural room ambience is physically grounded and specific",
+      "sfx-director": "Classic NPR-style fingerpicking bed \u2014 proven format, soft attack, no transient issues",
+      "sfx-librarian": "Acoustic guitar fingerpicking is a genuinely novel source for the news bed pool"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_bowed_vibraphone_serious_001",
+    "prompt": "Serious investigative news bed with bowed vibraphone and metallic resonance, slow undulating harmonic movement, mid-to-high register with airy spacious reverb, loopable 30-second track, 72 BPM in C minor, used as an under-voice bed for investigative features, creating tension without low-end muddiness.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "vibraphone_bowed",
+      "attack": "undulating",
+      "texture": "metallic_resonant",
+      "spatial": "airy_reverb",
+      "frequency": "mid_bright"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_bowed_vibraphone_serious_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_bowed_vibraphone_serious_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Bowed vibraphone is unusual but physically real and coherently specified",
+      "sfx-director": "Smart choice putting energy in mid-to-high register to leave voice space, 72 BPM C minor ideal",
+      "sfx-librarian": "Bowed vibraphone with metallic resonance is entirely novel \u2014 no existing bed uses mallet instruments"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_harmonium_gentle_001",
+    "prompt": "Gentle human-interest news bed with soft harmonium drone and warm reed texture, low-mid sustained chords with subtle volume swells, warm cabin acoustic, loopable 30-second track, 70 BPM in D minor, used as a supportive under-voice news bed for feature reports, earthy and warm without competing with narration.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "harmonium",
+      "attack": "sustained_swell",
+      "texture": "reed_warm",
+      "spatial": "warm_cabin",
+      "frequency": "low_mid_warm"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_harmonium_gentle_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_harmonium_gentle_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Harmonium drone with warm cabin acoustic is vivid, specific, and physically achievable",
+      "sfx-director": "Warm tonality suits features; frequency range needs careful monitoring under male voice",
+      "sfx-librarian": "Harmonium drone with warm reed texture is a unique source \u2014 fundamentally different from piano legato"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_electric_piano_upbeat_001",
+    "prompt": "Energetic sports news bed with warm electric piano chord comping and soft shaker rhythm, relaxed mid-tempo groove with smooth attack, wide but soft stereo field leaving vocal space, loopable 30-second track, 92 BPM in D major, used as an upbeat under-voice sports bed for game highlights and score updates.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "electric_piano",
+      "attack": "relaxed_groove",
+      "texture": "smooth_chords",
+      "spatial": "wide_soft",
+      "frequency": "mid_warm"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_electric_piano_upbeat_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_electric_piano_upbeat_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Electric piano comping and shaker form a coherent, achievable sonic image",
+      "sfx-director": "Strong revision \u2014 warm electric piano comping ducks cleanly under a sports anchor",
+      "sfx-librarian": "Electric piano comping with shaker rhythm is entirely distinct from existing beds"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_marimba_bright_001",
+    "prompt": "Bright financial news bed with marimba mallet pattern and clear melodic ostinato, soft attack with rounded tone, dry studio acoustic with tight stereo image, loopable 30-second track, 105 BPM in C major, used as an energetic under-voice news bed for market reports and business updates.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "marimba",
+      "attack": "soft_mallet",
+      "texture": "clear_ostinato",
+      "spatial": "dry_studio",
+      "frequency": "bright_mid"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_marimba_bright_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_marimba_bright_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Marimba mallet pattern with rounded tone is highly specific and naturally voice-friendly",
+      "sfx-director": "Marimba has inherently percussive attacks but passes as a short drop-in bed",
+      "sfx-librarian": "Marimba is a genuinely new acoustic source; bright financial profile is differentiated from existing arpeggio"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_marimba_ostinato_tense_001",
+    "prompt": "Tense weather warning bed with repeating marimba ostinato in the low register, dry close-mic'd percussive pattern with reverb swell tails, narrow stereo field with sudden wide bursts, loopable 30-second track, 100 BPM in E minor, used as a dramatic under-voice weather warning bed for severe weather advisories, creating rhythmic tension without sustained pads.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "marimba_ostinato",
+      "attack": "repeating_pattern",
+      "texture": "percussive_tails",
+      "spatial": "narrow_with_bursts",
+      "frequency": "mid_low"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_marimba_ostinato_tense_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_marimba_ostinato_tense_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Marimba ostinato with dry attacks and swell tails is precise and physically achievable",
+      "sfx-director": "Marimba ostinato is workable for weather; tight/controlled loop needed",
+      "sfx-librarian": "Marimba ostinato is a unique acoustic source; rhythmic tension approach is sonically distinct"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_solo_cello_intimate_001",
+    "prompt": "Intimate late-night news bed with melancholic solo cello melody and slow bow strokes, small room acoustic with close perspective, sparse and reflective, loopable 30-second instrumental track, 65 BPM in B minor, used as an under-voice news bed for late-night analysis and reflective segments.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "solo_cello",
+      "attack": "slow_bow",
+      "texture": "melancholic_drone",
+      "spatial": "small_room",
+      "frequency": "mid_low_warm"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_solo_cello_intimate_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_solo_cello_intimate_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Solo cello with slow bow strokes and small room acoustic is specific, intimate, and coherent",
+      "sfx-director": "Sparse solo cello at 65 BPM in small room is ideal late-night bed \u2014 reflective, unobtrusive",
+      "sfx-librarian": "Solo cello is a completely novel instrumentation source for the bed pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_string_pad_cinematic_001",
+    "prompt": "Warm cinematic feature bed with sustained string pad and slow legato build, wide hall stereo with gentle dynamics, emotional mid-high warmth, loopable 30-second track, 85 BPM in E minor, used as an under-voice news bed for long-form documentary features and special reports.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "string_pad",
+      "attack": "slow_build",
+      "texture": "legato_warm",
+      "spatial": "wide_hall",
+      "frequency": "mid_high"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_string_pad_cinematic_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_string_pad_cinematic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Sustained string pad with legato build and wide hall is specific and coherent",
+      "sfx-director": "Classic long-form documentary bed \u2014 no transients, wide hall gives depth",
+      "sfx-librarian": "Sustained string pad with legato build is novel instrumentation in the bed pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "background_music_wood_block_percussion_energetic_001",
+    "prompt": "Energetic headline update bed with rapid wood block rhythm and tuned percussion hits, dry tight production with minimal reverb, short slap delay for space, loopable 30-second track, 92 BPM in C minor, used as an under-voice bed for rapid news roundups and headline recaps.",
+    "category": "background_music",
+    "sonic_angles": {
+      "instrumentation": "wood_block_percussion",
+      "attack": "rapid_fire",
+      "texture": "tuned_percussion",
+      "spatial": "wide_scattered",
+      "frequency": "mid_low_rhythmic"
+    },
+    "duration_seconds": 30,
+    "prompt_influence": 0.4,
+    "output_filename": "background_music_wood_block_percussion_energetic_001.mp3",
+    "output_path": "sfx_library/background_music/background_music_wood_block_percussion_energetic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 5,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Wood block with tuned percussion and slap delay is acoustically clear and renderable",
+      "sfx-director": "Force-approved: tempo reduced to 92 BPM, ping-pong replaced with short slap; workable for headline recaps",
+      "sfx-librarian": "Wood block with tuned percussion is unique timbral combination; scattered stereo provides differentiation"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-06-24T03:29:41Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 750
+  },
+  {
+    "id": "transition_rim_click_marching_to_bright_001",
+    "prompt": "Marching band rim click pattern with precise rhythmic ticks, tight dry march feel, then bursting into a wide synth chord hit with rich stereo sustain, under 3 seconds, used as a news-to-sports transition from serious briefing to game-time energy.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "rim_click_to_synth",
+      "attack": "rhythmic_to_burst",
+      "texture": "dry_march_to_sustained",
+      "spatial": "tight_to_wide",
+      "frequency": "mid_to_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_rim_click_marching_to_bright_001.mp3",
+    "output_path": "sfx_library/transitions/transition_rim_click_marching_to_bright_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Precise acoustic specificity with clear sequencing and model-friendly terminology",
+      "sfx-director": "Strong sports-band semantic, synth chord lands energy pivot cleanly",
+      "sfx-librarian": "Novel percussion source, rim-click-to-synth-chord arc unique in pool"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_synth_horn_urgent_to_triumphant_001",
+    "prompt": "Urgent synth alert beep with repeating pulse in the high register, then abruptly resolving into a triumphant stadium horn blast in C major with wide stereo reverb tail and warm brass resonance, 100 BPM, used as a radio transition from breaking news to sports coverage.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "synth_alert_to_stadium_horn",
+      "attack": "beeping_to_blast",
+      "texture": "clean_to_brass",
+      "spatial": "dry_to_stadium_reverb",
+      "frequency": "high_to_mid_broad"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_synth_horn_urgent_to_triumphant_001.mp3",
+    "output_path": "sfx_library/transitions/transition_synth_horn_urgent_to_triumphant_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Well-structured sequence with specific key, BPM, and brass descriptors",
+      "sfx-director": "Punchy sports arrival cue, high-register pulse may need faster cutoff",
+      "sfx-librarian": "Stadium horn blast unrepresented source; unique brass resolution in pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_orchestral_ominous_to_staccato_001",
+    "prompt": "Low ominous synth drone in F minor building tension, then breaking into a sudden full-orchestra staccato hit with sharp string accent and timpani thump, tight hall reverb with immediate cutoff, used as a news-to-sports radio transition bridging serious news into sports.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "synth_drone_to_orchestra",
+      "attack": "sustained_to_staccato",
+      "texture": "dark_to_sharp",
+      "spatial": "centered_to_hall",
+      "frequency": "low_to_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_orchestral_ominous_to_staccato_001.mp3",
+    "output_path": "sfx_library/transitions/transition_orchestral_ominous_to_staccato_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 5
+    },
+    "council_notes": {
+      "sfx-ear": "Clear F-minor drone with orchestra staccato hit, timpani thump, tight reverb",
+      "sfx-director": "F-minor tension-release maps well to news-to-sports, density risk noted",
+      "sfx-librarian": "Force-approved after Round 2 \u2014 F-minor drone opener and orchestral staccato landing differ from string sforzando arc and news strings climax entries"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_bass_pulse_pulsing_to_tight_001",
+    "prompt": "Slow rhythmic heartbeat pulse on synth bass in D minor at a steady 90 BPM, building three pulses of increasing intensity, then resolving into a tight mid-bass synth stab with tight room reverb tail, used as a dramatic news-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "synth_bass_pulse",
+      "attack": "pulsing_to_stab",
+      "texture": "rhythmic_to_tight",
+      "spatial": "close_to_room",
+      "frequency": "mid_low_to_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_bass_pulse_pulsing_to_tight_001.mp3",
+    "output_path": "sfx_library/transitions/transition_bass_pulse_pulsing_to_tight_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 5,
+      "sfx-librarian": 4
+    },
+    "council_notes": {
+      "sfx-ear": "Clear pulse-stab arc with steady 90 BPM and D minor; physically achievable",
+      "sfx-director": "Force-approved \u2014 steady 90 BPM pulse with increasing intensity provides drama; transition category differentiates from news stinger entries",
+      "sfx-librarian": "Force-approved after Round 2 \u2014 key and category differ from existing news_bass_pulse_urgent_001; sub-bass countdown overlap mitigated by different source structure"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_teletype_crowd_newsroom_to_stadium_001",
+    "prompt": "Rapid news wire teletype beeps with clean electronic tone in narrow stereo, tight and staccato, then morphing into a wide stadium crowd swell with warm ambience and building energy, used as a broadcast-authentic news-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "teletype_to_crowd",
+      "attack": "staccato_to_swell",
+      "texture": "electronic_to_warm",
+      "spatial": "narrow_to_wide",
+      "frequency": "mid_to_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_teletype_crowd_newsroom_to_stadium_001.mp3",
+    "output_path": "sfx_library/transitions/transition_teletype_crowd_newsroom_to_stadium_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 9,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Strong teletype+stadium crowd with clean morph; no conflicting characteristics",
+      "sfx-director": "Near-perfect broadcast semantic mapping \u2014 teletype=news, crowd=sports, narrow-to-wide = pivot",
+      "sfx-librarian": "Teletype-to-crowd morph is genuinely novel two-world arc in transition pool"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_ambience_roar_quiet_to_energetic_001",
+    "prompt": "Quiet newsroom ambience with distant teletype and hushed voices, crossfading into a building stadium crowd roar with cheering swell and full audience energy, wide open spatial perspective, used as a naturalistic radio transition from newsroom to live sports.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "newsroom_to_stadium",
+      "attack": "subtle_to_roaring",
+      "texture": "quiet_to_chaotic",
+      "spatial": "indoor_to_open",
+      "frequency": "mid_to_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_ambience_roar_quiet_to_energetic_001.mp3",
+    "output_path": "sfx_library/transitions/transition_ambience_roar_quiet_to_energetic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Real-world newsroom ambience and crowd roar with explicit crossfade; highly renderable",
+      "sfx-director": "Most naturalistic option in batch \u2014 real locations, proven broadcast device",
+      "sfx-librarian": "Novel naturalistic source pairing with interior-to-exterior spatial shift"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_strings_impact_tension_to_explosive_001",
+    "prompt": "Slow tension-building orchestral string swell with sustained legato in E minor, reaching a peak then cutting into a single sharp impact hit with sub-bass body and tight reverb tail, used as a cinematic news-to-sports transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "strings_to_impact",
+      "attack": "legato_rise_to_cut",
+      "texture": "swelling_to_sharp",
+      "spatial": "hall_to_tight",
+      "frequency": "mid_high_to_low_sub"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_strings_impact_tension_to_explosive_001.mp3",
+    "output_path": "sfx_library/transitions/transition_strings_impact_tension_to_explosive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 5,
+      "sfx-librarian": 4
+    },
+    "council_notes": {
+      "sfx-ear": "Clear legato swell and sub-bass impact with proper sequencing; physically achievable",
+      "sfx-director": "Force-approved \u2014 legato-swell-to-impact arc differs from sforzando sudden-attack structure; sub-bass body adds low-end weight for sports handoff",
+      "sfx-librarian": "Force-approved after Round 2 \u2014 slow build-to-cut arc structurally distinct from sudden sforzando attack; sub-bass landing diverges from string-only entries"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_morse_bass_radio_to_live_001",
+    "prompt": "Distant shortwave Morse code beeps with atmospheric crackle, dry radio texture, then transforming into a clean electric bass guitar groove with round plucked tone and live stage ambience, warm low-mid register, used as a radio-themed news-to-sports transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "morse_to_bass",
+      "attack": "beeping_to_plucked",
+      "texture": "crackling_to_groove",
+      "spatial": "dry_to_live",
+      "frequency": "mid_to_low_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_morse_bass_radio_to_live_001.mp3",
+    "output_path": "sfx_library/transitions/transition_morse_bass_radio_to_live_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 5,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Shortwave Morse code + electric bass with crackle-to-groove arc; precise and renderable",
+      "sfx-director": "Force-approved \u2014 radio-thematic opener connects to broadcast heritage; warm low-mid bass works for sports energy",
+      "sfx-librarian": "Shortwave Morse code with bass guitar resolution is wholly unique; no existing entry uses radio-transmission source"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_siren_organ_warning_to_anthem_001",
+    "prompt": "Oscillating two-tone siren-like synth wobble in close mono, urgent alert character, then resolving into a deep sustained stadium organ chord in G major with cathedral reverb and warm low-register body, used as a dramatic warning-to-anthem news-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "siren_to_organ",
+      "attack": "wobbling_to_sustained",
+      "texture": "urgent_to_deep",
+      "spatial": "mono_to_cathedral",
+      "frequency": "mid_to_low"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_siren_organ_warning_to_anthem_001.mp3",
+    "output_path": "sfx_library/transitions/transition_siren_organ_warning_to_anthem_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 6,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Concrete two-tone siren and organ with specific spatial shift; clear sequence",
+      "sfx-director": "Strong news-to-sports arc with stadium organ landing; tighten siren to brief hit",
+      "sfx-librarian": "Siren wobble and stadium organ chord entirely novel sources in transition pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_typewriter_cheer_nostalgic_to_celebratory_001",
+    "prompt": "Rapid typewriter key strike clatter with hard metallic hits and carriage return, desk-close perspective, then crossfading into a rising swell of crowd cheer and applause with stadium ambience warmth, used as a nostalgic newsroom-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "typewriter_to_cheer",
+      "attack": "rapid_to_crescendo",
+      "texture": "metallic_to_organic",
+      "spatial": "desk_to_stadium",
+      "frequency": "mid_to_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_typewriter_cheer_nostalgic_to_celebratory_001.mp3",
+    "output_path": "sfx_library/transitions/transition_typewriter_cheer_nostalgic_to_celebratory_001.mp3",
+    "council_scores": {
+      "sfx-ear": 8,
+      "sfx-director": 7,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Typewriter clatter and crowd cheer both concrete; crossfade sequence explicit",
+      "sfx-director": "Clean newsroom-to-sports crossfade, trim crowd swell to short rise-and-cut",
+      "sfx-librarian": "Typewriter clatter is novel mechanical source; crowd cheer differentiates from teletype entry"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_clock_brass_countdown_to_impact_001",
+    "prompt": "Steady clock ticking with precise rhythmic clicks in close dry perspective, then exploding into a short powerful brass horn blast with wide stereo impact and immediate sforzando attack, 120 BPM tick tempo, used as a countdown-style news-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "clock_to_brass",
+      "attack": "ticking_to_sforzando",
+      "texture": "clicky_to_blaring",
+      "spatial": "dry_to_wide",
+      "frequency": "high_mid_to_broad"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_clock_brass_countdown_to_impact_001.mp3",
+    "output_path": "sfx_library/transitions/transition_clock_brass_countdown_to_impact_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Clock ticks at 120 BPM, sforzando brass; every element physically achievable",
+      "sfx-director": "Textbook news-to-sports: countdown=serious, brass=sports-punch, 120 BPM makes edit-friendly",
+      "sfx-librarian": "Clock ticking is novel source; countdown structure differs from sub-bass countdown in texture"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_rumble_guitar_ominous_to_drive_001",
+    "prompt": "Deep subsonic low-end rumble building from below the audible floor, slow shudder texture centered in the mix, then cutting into a loud electric guitar power chord with saturated distortion and wide stereo room fill, used as an ominous-to-energetic news-to-sports transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "rumble_to_guitar",
+      "attack": "slow_to_cut",
+      "texture": "shudder_to_distorted",
+      "spatial": "centered_to_room",
+      "frequency": "sub_low_to_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_rumble_guitar_ominous_to_drive_001.mp3",
+    "output_path": "sfx_library/transitions/transition_rumble_guitar_ominous_to_drive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 7,
+      "sfx-director": 6,
+      "sfx-librarian": 8
+    },
+    "council_notes": {
+      "sfx-ear": "Rumble and guitar power chord well-specified; anchor rumble to specific low range for clarity",
+      "sfx-director": "Ominous-to-energetic arc works; distortion sits well for sports programming",
+      "sfx-librarian": "Subsonic rumble + electric guitar power chord is novel pairing; no similar entry exists"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_foley_orchestra_intimate_to_cinematic_001",
+    "prompt": "Quick newsroom pencil scratch on paper and paper shuffle, desk-close perspective, then assembling into a unified orchestral hit with full string section and brass ensemble in hall-wide stereo, used as a newsroom-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "foley_to_orchestra",
+      "attack": "scratching_to_unified",
+      "texture": "intimate_to_massive",
+      "spatial": "close_to_hall",
+      "frequency": "mid_to_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_foley_orchestra_intimate_to_cinematic_001.mp3",
+    "output_path": "sfx_library/transitions/transition_foley_orchestra_intimate_to_cinematic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 6,
+      "sfx-librarian": 7
+    },
+    "council_notes": {
+      "sfx-ear": "Pencil scratch and orchestral hit are concrete sources with clear spatial shift",
+      "sfx-director": "Most literal news semantic; foley may need higher level for clean read",
+      "sfx-librarian": "Newsroom foley is novel source; foley-to-orchestra arc creative and distinct"
+    },
+    "revision_count": 1,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_bell_crowd_somber_to_explosive_001",
+    "prompt": "Single deep church bell toll with long resonant decay in cathedral distance, solemn mid-low ring, then building into a stadium crowd explosion with roaring cheers and full-spectrum energy, wide arena spatial, used as a somber-to-celebratory news-to-sports radio transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "bell_to_crowd",
+      "attack": "tolling_to_explosion",
+      "texture": "resonant_to_noisy",
+      "spatial": "cathedral_to_arena",
+      "frequency": "mid_low_to_full"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_bell_crowd_somber_to_explosive_001.mp3",
+    "output_path": "sfx_library/transitions/transition_bell_crowd_somber_to_explosive_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 8,
+      "sfx-librarian": 9
+    },
+    "council_notes": {
+      "sfx-ear": "Church bell toll and crowd explosion with cathedral-to-arena spatial arc; highly specific",
+      "sfx-director": "Iconic news-to-sports pairing; bell-to-crowd arc is emotionally honest broadcast device",
+      "sfx-librarian": "Church bell toll is entirely novel source; bell-to-crowd arc unique across whole pool"
+    },
+    "revision_count": 0,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  },
+  {
+    "id": "transition_rain_guitar_reflective_to_energetic_001",
+    "prompt": "Steady rain patter on a window pane with indoor room perspective, then transitioning into a clean electric guitar chord strum with live concert stage presence and crisp mid-range attack, used as a reflective-to-energetic news-to-sports transition.",
+    "category": "transition",
+    "sonic_angles": {
+      "instrumentation": "rain_to_guitar",
+      "attack": "pattering_to_strummed",
+      "texture": "watery_to_crisp",
+      "spatial": "indoor_to_stage",
+      "frequency": "full_to_mid"
+    },
+    "duration_seconds": null,
+    "prompt_influence": 0.6,
+    "output_filename": "transition_rain_guitar_reflective_to_energetic_001.mp3",
+    "output_path": "sfx_library/transitions/transition_rain_guitar_reflective_to_energetic_001.mp3",
+    "council_scores": {
+      "sfx-ear": 9,
+      "sfx-director": 4,
+      "sfx-librarian": 6
+    },
+    "council_notes": {
+      "sfx-ear": "Rain patter and electric guitar strum are physically achievable with clean transition",
+      "sfx-director": "Force-approved \u2014 reflective-to-energetic arc fills a niche; indoor-to-stage spatial shift provides clear mood pivot",
+      "sfx-librarian": "Rain is unique environmental source; indoor-to-concert transition distinct enough from wind+slide entries"
+    },
+    "revision_count": 2,
+    "timestamp": "2026-07-17T13:10:06Z",
+    "model_id": "eleven_text_to_sound_v2",
+    "output_format": "mp3_44100_128",
+    "character_cost": 100
+  }
+]

@@ -10,7 +10,7 @@ Generate sound effects for the SFX Studio library.
 
 ## Preconditions
 
-- Valid categories: `ambience`, `stinger`, `transition`, `bed`, `foley`, `jingle`, `news`, `misc`.
+- Valid categories: `ambience`, `stinger`, `transition`, `background_music`, `foley`, `jingle`, `news`, `misc`.
 - If **$1** is empty or not one of the valid categories, ask which category to generate and stop.
 - If **$2** is empty, default to **1**. If **$2** is not a positive integer, ask for a valid quantity and stop.
 

@@ -43,7 +43,7 @@ sfx_library/
 ├── ambience/
 ├── stingers/
 ├── transitions/
-├── beds/
+├── background_music/
 ├── foley/
 ├── jingles/
 ├── news/
@@ -98,7 +98,7 @@ Files are auto-named by `organizer.py` using the format:
 | ambience | `sfx_library/ambience/` | same |
 | stinger | `sfx_library/stingers/` | stingers |
 | transition | `sfx_library/transitions/` | transitions |
-| bed | `sfx_library/beds/` | beds |
+| background_music | `sfx_library/background_music/` | same |
 | foley | `sfx_library/foley/` | same |
 | jingle | `sfx_library/jingles/` | jingles |
 | news | `sfx_library/news/` | same |
@@ -112,7 +112,7 @@ Files are auto-named by `organizer.py` using the format:
 
 ## Categories
 
-`ambience`, `stinger`, `transition`, `bed`, `foley`, `jingle`, `news`, `misc`
+`ambience`, `stinger`, `transition`, `background_music`, `foley`, `jingle`, `news`, `misc`
 
 ## Commands
 

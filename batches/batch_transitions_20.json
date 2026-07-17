@@ -1,0 +1,145 @@
+{
+  "tier": "free",
+  "items": [
+    {
+      "text": "Smooth broadband synth whoosh with fast attack and clean mid-range swoop, wide stereo spread, slight downward pitch bend, used as a clean radio transition between segments, under 2 seconds.",
+      "category": "transition",
+      "descriptor": "synth_whoosh",
+      "mood": "broadband",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Orchestral marcato string chop: descending two-note stab from cello and viola section, dry attack with tight hall resonance, falling pitch gesture with immediate cutoff, in D minor, 100 BPM, used as a decisive closing transition to end a segment.",
+      "category": "transition",
+      "descriptor": "string_chop",
+      "mood": "marcato",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Rising granular synth transition: digital grain cloud building from noise floor to dense shimmering texture, mid-range cluster with spectral smear, wide stereo with slight upward pitch rise, used as a contemporary radio transition for arts or experimental segments.",
+      "category": "transition",
+      "descriptor": "granular_cloud",
+      "mood": "shimmering",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Cinematic tape-stop transition: rapid deceleration effect like a tape machine powering down, pitch dropping from normal speed to slow warble, mid-frequency warmth with slight wow and flutter, tight tail under 1 second, used as a retro dramatic transition for vintage-flavored segments.",
+      "category": "transition",
+      "descriptor": "tape_stop",
+      "mood": "deceleration",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "FM radio tuning sweep: rapid scan across radio frequencies with bursted static fragments, sudden clear tone flashing through the noise, mid-to-high pitch sweep, tight dry envelope, used as a radio-authentic transition for communications or broadcast-themed segments.",
+      "category": "transition",
+      "descriptor": "fm_tuning",
+      "mood": "sweeping",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Reverse cymbal swell: shimmering wash building from silence to crash peak, wide stereo field with deep reverb tail, high-mid metallic texture, ending abruptly at the crest, used as a dreamy cross-fade transition.",
+      "category": "transition",
+      "descriptor": "reverse_cymbal",
+      "mood": "shimmering",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Electric guitar slide transition: smooth fret slide from fifth fret to twelfth fret on wound strings, warm mid-range tone with live room ambience, single clean sliding gesture, used as a relaxed music-segment transition.",
+      "category": "transition",
+      "descriptor": "guitar_slide",
+      "mood": "smooth",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Classic vinyl record scratch: abrupt stop with textured groove grain, close warm microphone perspective, subtle needle surface noise, short mid-low-frequency abrasion, used as a nostalgic retro transition cue.",
+      "category": "transition",
+      "descriptor": "vinyl_scratch",
+      "mood": "nostalgic",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Flowing wind blow transition: airy full-frequency swoosh with wide open-field spatial movement, subtle stereo pan from left to right, used as a natural ambient transition for nature or documentary programming.",
+      "category": "transition",
+      "descriptor": "wind_blow",
+      "mood": "airy",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Mechanical gear shift lever clunking into place: metallic impact with dry staccato resonance, short mid-low metallic ping, close perspective, used as an industrial transition for automotive or engineering segments.",
+      "category": "transition",
+      "descriptor": "gear_shift",
+      "mood": "mechanical",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Sudden orchestral string sforzando accent: sharp dissonant attack from full string section, mid-high bite with concert hall decay tail, one-shot dramatic punch with fast decay, used as a tension transition for drama cues.",
+      "category": "transition",
+      "descriptor": "string_sforzando",
+      "mood": "tension",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Gated sub-bass countdown: three staccato low-frequency hits with increasing tempo, resonant filter closing between each strike, mono-to-narrow spatial treatment, deadened silence at the end, under 2 seconds, used as a dramatic countdown transition for show segments.",
+      "category": "transition",
+      "descriptor": "sub_bass_countdown",
+      "mood": "staccato",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Rolling tribal drum crescendo: accelerating skin hits on djembe and conga, percussive mid-frequency build culminating in a final slamming accent, natural live stage ambience, used as an energetic transition for world music or sports segments.",
+      "category": "transition",
+      "descriptor": "tribal_drum_roll",
+      "mood": "crescendo",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Fast piano glissando sweeping upward from middle C to high C, rippling bright mid-high tones with natural room resonance, single fluid hand gesture across the keyboard, used as an elegant classical transition.",
+      "category": "transition",
+      "descriptor": "piano_glissando",
+      "mood": "elegant",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Resonant filter sweep on sustained synth pad: cutoff opening from closed muted tone to bright resonant peak, mid-band frequency emphasis with stereo auto-pan movement, used as a filtered transition building anticipation for a reveal.",
+      "category": "transition",
+      "descriptor": "filter_sweep",
+      "mood": "opening",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Wordless vocal choir swell: building from soft breathy murmur to full harmonic peak, airy cathedral-wide spatial bloom, mid-low to high frequency expansion, used as an uplifting inspirational transition for reflective segments.",
+      "category": "transition",
+      "descriptor": "vocal_choir",
+      "mood": "swelling",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Abrupt white noise burst: sizzling full-band texture with immediate attack and instant cutoff, no tail or sustain, dry presentation, under 1 second, used as a clean signal-shift transition between radio segments.",
+      "category": "transition",
+      "descriptor": "noise_burst",
+      "mood": "abrupt",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Falling brass horn bend: single descending jazz-influenced note from F to C in the mid-low register, warm round tone with hall reverb tail, used as a sophisticated late-night segment transition, 80 BPM feel.",
+      "category": "transition",
+      "descriptor": "brass_fall",
+      "mood": "warm",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Rhythmic gated synth stutter: chopped granular pattern of repeated mid-high bursts with gated amplitude modulation, tight compressed delivery, used as a modern electro transition for contemporary radio shows.",
+      "category": "transition",
+      "descriptor": "gated_stutter",
+      "mood": "rhythmic",
+      "prompt_influence": 0.6
+    },
+    {
+      "text": "Massive hydraulic press impact: heavy mechanical thud with compressed air release, low-mid metallic resonance ring, close industrial spatial perspective, tight deadened cutoff, used as an industrial transition for engineering or heavy-content programming shifts.",
+      "category": "transition",
+      "descriptor": "hydraulic_impact",
+      "mood": "mechanical",
+      "prompt_influence": 0.6
+    }
+  ]
+}

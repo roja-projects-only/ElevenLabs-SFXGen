@@ -26,7 +26,7 @@ Ambience belongs on the sound-effects bus, forming the environmental layer, whil
 Radio imaging refers to the composite effect of on-air sound elements—voiceovers, music beds, sweepers, stingers, bumpers, intros, promos, liners, and jingles—that brand and identify the station.[7][13] Guides describe these elements as follows:
 - **Jingles**: Short musical pieces, usually sung, that embed the station name, slogan, or frequency; they are catchy identifiers used between segments.[6][14]
 - **Sweepers**: Brief spoken IDs with effects and/or music, typically under 20 seconds, used to transition between songs or segments and re-state the station identity.[14][15]
-- **Music beds (beds)**: Instrumental or ambient tracks without vocals used under speech (news, features, promos) to add energy and emotion while leaving space for the voice.[5][6]
+- **Music beds (beds)**: Instrumental or ambient tracks without vocals used under speech (news, features, promos) to add energy and emotion while leaving space for the voice.[5][6] *(SFX Studio's `background_music` category maps to this "music bed" terminology — grep for "bed" as well as "background_music" when researching this category.)*
 - **Stingers**: Very short, high-impact sound elements—often sweeps, hits, or tonal bursts—used to punctuate or signal transitions, e.g., into breaking news.[16][17]
 - **Bumpers**: Short pieces at the beginning or end of segments that “bump” into or out of programming, often combining music, voice, and SFX.[7][13]
 - **IDs / legal IDs**: Required station identifications stating call letters and city, often produced with imaging elements and aired near the top of the hour.[8]

@@ -1,0 +1,95 @@
+{
+  "tier": "creator",
+  "items": [
+    {
+      "text": "Urgent breaking news bed with deep subsonic pulse and layered organ drone, close-mic'd intimate texture with centered stereo placement, dark serious harmonic clusters, loopable 30-second track, 85 BPM in F# minor, used as an under-voice bed for urgent breaking news bulletins and major developments.",
+      "category": "background_music",
+      "descriptor": "organ_drone",
+      "mood": "urgent",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Warm neutral news bed with soft acoustic guitar fingerpicking pattern and gentle rhythmic pulse, natural room ambience with controlled stereo width, loopable 30-second instrumental track, 90 BPM in G major, used as a calm under-voice news bed for regular updates and morning headline segments.",
+      "category": "background_music",
+      "descriptor": "acoustic_guitar",
+      "mood": "gentle",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Serious investigative news bed with bowed vibraphone and metallic resonance, slow undulating harmonic movement, mid-to-high register with airy spacious reverb, loopable 30-second track, 72 BPM in C minor, used as an under-voice bed for investigative features, creating tension without low-end muddiness.",
+      "category": "background_music",
+      "descriptor": "bowed_vibraphone",
+      "mood": "serious",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Gentle human-interest news bed with soft harmonium drone and warm reed texture, low-mid sustained chords with subtle volume swells, warm cabin acoustic, loopable 30-second track, 70 BPM in D minor, used as a supportive under-voice news bed for feature reports, earthy and warm without competing with narration.",
+      "category": "background_music",
+      "descriptor": "harmonium",
+      "mood": "gentle",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Energetic sports news bed with warm electric piano chord comping and soft shaker rhythm, relaxed mid-tempo groove with smooth attack, wide but soft stereo field leaving vocal space, loopable 30-second track, 92 BPM in D major, used as an upbeat under-voice sports bed for game highlights and score updates.",
+      "category": "background_music",
+      "descriptor": "electric_piano",
+      "mood": "upbeat",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Bright financial news bed with marimba mallet pattern and clear melodic ostinato, soft attack with rounded tone, dry studio acoustic with tight stereo image, loopable 30-second track, 105 BPM in C major, used as an energetic under-voice news bed for market reports and business updates.",
+      "category": "background_music",
+      "descriptor": "marimba",
+      "mood": "bright",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Tense weather warning bed with repeating marimba ostinato in the low register, dry close-mic'd percussive pattern with reverb swell tails, narrow stereo field with sudden wide bursts, loopable 30-second track, 100 BPM in E minor, used as a dramatic under-voice weather warning bed for severe weather advisories, creating rhythmic tension without sustained pads.",
+      "category": "background_music",
+      "descriptor": "marimba_ostinato",
+      "mood": "tense",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Intimate late-night news bed with melancholic solo cello melody and slow bow strokes, small room acoustic with close perspective, sparse and reflective, loopable 30-second instrumental track, 65 BPM in B minor, used as an under-voice news bed for late-night analysis and reflective segments.",
+      "category": "background_music",
+      "descriptor": "solo_cello",
+      "mood": "intimate",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Warm cinematic feature bed with sustained string pad and slow legato build, wide hall stereo with gentle dynamics, emotional mid-high warmth, loopable 30-second track, 85 BPM in E minor, used as an under-voice news bed for long-form documentary features and special reports.",
+      "category": "background_music",
+      "descriptor": "string_pad",
+      "mood": "cinematic",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    },
+    {
+      "text": "Energetic headline update bed with rapid wood block rhythm and tuned percussion hits, dry tight production with minimal reverb, short slap delay for space, loopable 30-second track, 92 BPM in C minor, used as an under-voice bed for rapid news roundups and headline recaps.",
+      "category": "background_music",
+      "descriptor": "wood_block_percussion",
+      "mood": "energetic",
+      "prompt_influence": 0.4,
+      "duration_seconds": 30,
+      "loop": true
+    }
+  ]
+}

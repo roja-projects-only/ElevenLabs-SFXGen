@@ -45,7 +45,7 @@ sfx_studio/
 │   ├── ambience/
 │   ├── stingers/
 │   ├── transitions/
-│   ├── beds/
+│   ├── background_music/
 │   ├── foley/
 │   ├── jingles/
 │   ├── news/
@@ -106,7 +106,7 @@ Before writing prompts for a batch, `sfx-writer` reads `generation_log.json` and
 | `model_id` | `eleven_text_to_sound_v2` | — |
 | `duration_seconds` | `null` (auto) | 0.5–30 seconds; auto is cheaper |
 | `prompt_influence` | `0.3` | 0–1; raise to 0.7–0.9 for tight specs |
-| `loop` | `false` | MP3 only; use for beds and ambience |
+| `loop` | `false` | MP3 only; use for background_music and ambience |
 | `output_format` | — | Query param; default `mp3_44100_128` |
 
 **Recommended output format:** `mp3_44100_128` for broadcast. Looping requires MP3 — PCM not available for loop mode.
@@ -130,7 +130,7 @@ Throttle `/sfx-batch` with `asyncio.Semaphore(N)` in `generate.py` where N = you
 - Describe sequences explicitly: `"Sound A, then Sound B"`
 - Include BPM and key for musical elements
 - Set `prompt_influence: 0.3` for creative/atmospheric; raise to `0.7–0.9` for tightly specified stingers
-- Set `loop: true` + 30 seconds for beds and ambience
+- Set `loop: true` + 30 seconds for background_music and ambience
 
 ---
 
@@ -208,7 +208,7 @@ generation_log.json updated
 | `/sfx-batch` | Queue multiple category requests and run as one batch |
 | `/sfx-library` | Browse the current SFX pool by category |
 
-Categories: `ambience`, `stinger`, `transition`, `bed`, `foley`, `jingle`, `news`, `misc`
+Categories: `ambience`, `stinger`, `transition`, `background_music`, `foley`, `jingle`, `news`, `misc`
 
 ---
 
